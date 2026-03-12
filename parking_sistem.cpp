@@ -1,3 +1,5 @@
+#include <iostream>
+
 class ParkingSystem {
 private:
     int bigSpaces;
@@ -10,6 +12,7 @@ public:
         mediumSpaces = medium;
         smallSpaces = small;
     }
+
     bool addCar(int carType) {
         if (carType == 1) {
             if (bigSpaces > 0) {
@@ -30,11 +33,14 @@ public:
         return false;
     }
 };
+
 int main() {
     ParkingSystem parkingSystem(1, 1, 0);
 
-    cout << parkingSystem.addCar(1) << endl;
-    cout << parkingSystem.addCar(2) << endl;
-    cout << parkingSystem.addCar(3) << endl;
-    cout << parkingSystem.addCar(1) << endl;
+    std::cout << parkingSystem.addCar(1) << std::endl;
+    std::cout << parkingSystem.addCar(2) << std::endl;
+    std::cout << parkingSystem.addCar(3) << std::endl;
+    std::cout << parkingSystem.addCar(1) << std::endl;
+
+    return 0;
 }

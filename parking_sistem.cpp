@@ -30,3 +30,11 @@ public:
         return false;
     }
 };
+int main() {
+    ParkingSystem parkingSystem(1, 1, 0);
+
+    cout << parkingSystem.addCar(1) << endl;
+    cout << parkingSystem.addCar(2) << endl;
+    cout << parkingSystem.addCar(3) << endl;
+    cout << parkingSystem.addCar(1) << endl;
+}

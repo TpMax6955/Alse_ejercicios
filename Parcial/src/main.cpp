@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include "~/Proyectos/Segundo_corte/Ejercicios_1/Parcial/include/PanelSolar.h"
+#include "PanelSolar.h"
 
 int main() {
     std::vector<PanelSolar> paneles;

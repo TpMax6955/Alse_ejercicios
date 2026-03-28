@@ -1,4 +1,4 @@
-#include "~/Proyectos/Segundo_corte/Ejercicios_1/Parcial/include/PanelSolar.h"
+#include "PanelSolar.h"
 #include <stdexcept>
 
 PanelSolar::PanelSolar(const std::string& id, float eficiencia)

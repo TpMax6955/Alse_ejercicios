@@ -1,0 +1,24 @@
+Desarrollar los siguientes ejercicios.
+
+1. LeetCode: 
+
+1603 Design Parking System
+2. Exercism:
+
+Amstrong Numbers
+Hamming distance.
+Space age.
+
+El entregable es un informe en formato pdf, tener en cuenta lo siguiente:
+
+ 
+La entrega se puede realizar de manera invidual o en grupos de máximo 3 personas.
+El nombre del documento debe relacionar el nombre de la asignación y las iniciales de por lo menos un integrante, por ejemplo:
+corte2_ent2_dsps.pdf
+El documento debe contener el nombre de los integrantes al inicio del documento, inclusive si se realiza de manera individual.
+No se requiere un formato especifico(IEEE, APA, ETC), siempre y cuando se presente de manera ordenada y sea de fácil lectura.
+Para cada problema abordado se debe plasmar la metodología, dificultades y demás elementos relevantes a tener en cuenta como el uso de recursos externos (librerías).
+Se recomienda incluir capturas de pantalla de ejemplos de ejecución.
+Incluir el enlace a un repositorio en github donde se encuentren los códigos de la solución. En caso de usar el mismo repositorio para entregas anteriores, organizarlo por carpetas para un seguimiento más sencillo.
+El repositorio debe ser público, en caso de no poder acceder a los códigos, solo se tendrá en cuenta una nota parcial ligada al contenido del informe. 
+Se debe poder compilar los códigos generados a través de por lo menos un archivo CMakeLists.txt, que contenga las instrucciones o comandos para compilar todos los programas en una sola ejecución.

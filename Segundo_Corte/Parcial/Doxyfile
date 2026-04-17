@@ -1,0 +1,51 @@
+# Doxyfile 1.9.x
+
+PROJECT_NAME           = "Proyecto PanelSolar"
+PROJECT_BRIEF          = "Documentacion del proyecto final en C++"
+OUTPUT_DIRECTORY       = docs
+CREATE_SUBDIRS         = NO
+
+OUTPUT_LANGUAGE        = Spanish
+USE_MDFILE_AS_MAINPAGE = README.md
+
+INPUT                  = include src README.md
+FILE_PATTERNS          = *.h *.cpp *.md
+RECURSIVE              = YES
+
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = NO
+EXTRACT_STATIC         = NO
+EXTRACT_LOCAL_CLASSES  = YES
+
+QUIET                  = NO
+WARNINGS               = YES
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+
+HTML_OUTPUT            = html
+HTML_FILE_EXTENSION    = .html
+HTML_COLORSTYLE_HUE    = 220
+HTML_DYNAMIC_SECTIONS  = YES
+
+GENERATE_TREEVIEW      = YES
+FULL_SIDEBAR           = YES
+
+GENERATE_XML           = NO
+GENERATE_RTF           = NO
+GENERATE_MAN           = NO
+GENERATE_DOCBOOK       = NO
+
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = NO
+REFERENCED_BY_RELATION = YES
+REFERENCES_RELATION    = YES
+
+ALPHABETICAL_INDEX     = YES
+GENERATE_TESTLIST      = YES
+GENERATE_TODOLIST      = YES
+GENERATE_BUGLIST       = YES
+GENERATE_DEPRECATEDLIST= YES
+
+STRIP_CODE_COMMENTS    = NO
+SHOW_INCLUDE_FILES     = YES
+VERBATIM_HEADERS       = YES

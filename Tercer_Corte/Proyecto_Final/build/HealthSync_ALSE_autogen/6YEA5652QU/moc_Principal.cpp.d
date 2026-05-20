@@ -700,7 +700,10 @@
   /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Calculo.h \
   /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/DatabaseManager.h \
   /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Usuario.h \
+  /usr/local/Cellar/qt@5/5.15.19/lib/QtCharts.framework/Versions/5/QtCharts \
+  /usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/QPair \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/QString \
+  /usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/QVector \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qalgorithms.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qarraydata.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qatomic.h \

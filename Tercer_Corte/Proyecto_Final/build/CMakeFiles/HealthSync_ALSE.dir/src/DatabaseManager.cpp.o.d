@@ -819,17 +819,10 @@ CMakeFiles/HealthSync_ALSE.dir/src/DatabaseManager.cpp.o: \
   /usr/local/opt/qt@5/lib/QtCore.framework/Headers/QString \
   /usr/local/opt/qt@5/lib/QtCore.framework/Headers/qstring.h \
   /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Usuario.h \
-  /usr/local/opt/qt@5/lib/QtSql.framework/Headers/QSqlQuery \
-  /usr/local/opt/qt@5/lib/QtSql.framework/Headers/qsqlquery.h \
-  /usr/local/include/QtSql/qsqldatabase.h \
-  /usr/local/opt/qt@5/lib/QtSql.framework/Headers/QSqlError \
-  /usr/local/opt/qt@5/lib/QtSql.framework/Headers/qsqlerror.h \
-  /usr/local/opt/qt@5/lib/QtCore.framework/Headers/QDebug \
-  /usr/local/opt/qt@5/lib/QtCore.framework/Headers/qdebug.h \
+  /usr/local/opt/qt@5/lib/QtCore.framework/Headers/QVector \
+  /usr/local/opt/qt@5/lib/QtCore.framework/Headers/qvector.h \
   /usr/local/include/QtCore/qalgorithms.h \
-  /usr/local/include/QtCore/qhash.h \
   /usr/local/include/QtCore/qiterator.h \
-  /usr/local/include/QtCore/qlist.h \
   /usr/local/include/QtCore/qhashfunctions.h \
   /usr/local/include/QtCore/qpair.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/numeric \
@@ -848,8 +841,18 @@ CMakeFiles/HealthSync_ALSE.dir/src/DatabaseManager.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_reduce.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/execution \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_execution_policy.h \
-  /usr/local/include/QtCore/qvector.h \
   /usr/local/include/QtCore/qcontainertools_impl.h \
+  /usr/local/opt/qt@5/lib/QtCore.framework/Headers/QPair \
+  /usr/local/opt/qt@5/lib/QtCore.framework/Headers/qpair.h \
+  /usr/local/opt/qt@5/lib/QtSql.framework/Headers/QSqlQuery \
+  /usr/local/opt/qt@5/lib/QtSql.framework/Headers/qsqlquery.h \
+  /usr/local/include/QtSql/qsqldatabase.h \
+  /usr/local/opt/qt@5/lib/QtSql.framework/Headers/QSqlError \
+  /usr/local/opt/qt@5/lib/QtSql.framework/Headers/qsqlerror.h \
+  /usr/local/opt/qt@5/lib/QtCore.framework/Headers/QDebug \
+  /usr/local/opt/qt@5/lib/QtCore.framework/Headers/qdebug.h \
+  /usr/local/include/QtCore/qhash.h /usr/local/include/QtCore/qlist.h \
+  /usr/local/include/QtCore/qvector.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/list \
   /usr/local/include/QtCore/qbytearraylist.h \
   /usr/local/include/QtCore/qstringlist.h \

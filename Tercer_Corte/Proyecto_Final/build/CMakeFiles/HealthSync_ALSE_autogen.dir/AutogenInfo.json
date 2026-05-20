@@ -245,6 +245,12 @@
 			"MU",
 			"6YEA5652QU/moc_Login.cpp",
 			null
+		],
+		[
+			"/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Usuario.h",
+			"MU",
+			"6YEA5652QU/moc_Usuario.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -319,6 +325,11 @@
 		],
 		[
 			"/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Login.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Usuario.cpp",
 			"MU",
 			null
 		],

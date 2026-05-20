@@ -919,4 +919,7 @@ CMakeFiles/HealthSync_ALSE.dir/src/main.cpp.o: \
   /usr/local/include/QtWidgets/qlayout.h \
   /usr/local/include/QtWidgets/qlayoutitem.h \
   /usr/local/include/QtWidgets/qboxlayout.h \
-  /usr/local/include/QtWidgets/qgridlayout.h
+  /usr/local/include/QtWidgets/qgridlayout.h \
+  /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/QMessageBox \
+  /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/qmessagebox.h \
+  /usr/local/include/QtWidgets/qdialog.h

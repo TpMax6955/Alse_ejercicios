@@ -227,6 +227,30 @@ src/Login.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HealthSync_ALSE.dir/build.make CMakeFiles/HealthSync_ALSE.dir/src/Login.cpp.s
 .PHONY : src/Login.cpp.s
 
+src/Usuario.o: src/Usuario.cpp.o
+.PHONY : src/Usuario.o
+
+# target to build an object file
+src/Usuario.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HealthSync_ALSE.dir/build.make CMakeFiles/HealthSync_ALSE.dir/src/Usuario.cpp.o
+.PHONY : src/Usuario.cpp.o
+
+src/Usuario.i: src/Usuario.cpp.i
+.PHONY : src/Usuario.i
+
+# target to preprocess a source file
+src/Usuario.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HealthSync_ALSE.dir/build.make CMakeFiles/HealthSync_ALSE.dir/src/Usuario.cpp.i
+.PHONY : src/Usuario.cpp.i
+
+src/Usuario.s: src/Usuario.cpp.s
+.PHONY : src/Usuario.s
+
+# target to generate assembly for a file
+src/Usuario.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HealthSync_ALSE.dir/build.make CMakeFiles/HealthSync_ALSE.dir/src/Usuario.cpp.s
+.PHONY : src/Usuario.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -271,6 +295,9 @@ help:
 	@echo "... src/Login.o"
 	@echo "... src/Login.i"
 	@echo "... src/Login.s"
+	@echo "... src/Usuario.o"
+	@echo "... src/Usuario.i"
+	@echo "... src/Usuario.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

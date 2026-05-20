@@ -902,6 +902,16 @@ CMakeFiles/HealthSync_ALSE.dir/src/Login.cpp.o: \
   /usr/local/include/QtWidgets/qlayoutitem.h \
   /usr/local/include/QtWidgets/qboxlayout.h \
   /usr/local/include/QtWidgets/qgridlayout.h \
+  /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/QMessageBox \
+  /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/qmessagebox.h \
+  /usr/local/include/QtWidgets/qdialog.h \
+  /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/DatabaseManager.h \
+  /usr/local/opt/qt@5/lib/QtSql.framework/Headers/QSqlDatabase \
+  /usr/local/opt/qt@5/lib/QtSql.framework/Headers/qsqldatabase.h \
+  /usr/local/include/QtSql/qtsqlglobal.h \
+  /usr/local/include/QtSql/qtsql-config.h \
+  /usr/local/opt/qt@5/lib/QtCore.framework/Headers/QString \
+  /usr/local/opt/qt@5/lib/QtCore.framework/Headers/qstring.h \
   /usr/local/opt/qt@5/lib/QtCore.framework/Headers/QDebug \
   /usr/local/opt/qt@5/lib/QtCore.framework/Headers/qdebug.h \
   /usr/local/include/QtCore/qtextstream.h \

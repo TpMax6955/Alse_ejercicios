@@ -782,17 +782,20 @@
   /usr/local/Cellar/qt@5/5.15.19/lib/QtGui.framework/Versions/5/Headers/qwindowdefs.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QLabel \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QLineEdit \
+  /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QMessageBox \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QPushButton \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QVBoxLayout \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QWidget \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qabstractbutton.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qboxlayout.h \
+  /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qdialog.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qframe.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qgridlayout.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qlabel.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qlayout.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qlayoutitem.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qlineedit.h \
+  /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qmessagebox.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qpushbutton.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qsizepolicy.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qtwidgets-config.h \

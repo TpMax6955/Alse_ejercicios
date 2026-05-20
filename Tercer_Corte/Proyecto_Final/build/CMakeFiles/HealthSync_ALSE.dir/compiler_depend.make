@@ -705,8 +705,10 @@ HealthSync_ALSE_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacO
   HealthSync_ALSE_autogen/moc_predefs.h \
   /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/DatabaseManager.h \
   /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Login.h \
+  /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Usuario.h \
   /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/DatabaseManager.cpp \
   /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Login.cpp \
+  /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Usuario.cpp \
   /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/main.cpp \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qalgorithms.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qarraydata.h \
@@ -793,17 +795,20 @@ HealthSync_ALSE_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacO
   /usr/local/Cellar/qt@5/5.15.19/lib/QtGui.framework/Versions/5/Headers/qwindowdefs.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QLabel \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QLineEdit \
+  /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QMessageBox \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QPushButton \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QVBoxLayout \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QWidget \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qabstractbutton.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qboxlayout.h \
+  /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qdialog.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qframe.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qgridlayout.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qlabel.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qlayout.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qlayoutitem.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qlineedit.h \
+  /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qmessagebox.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qpushbutton.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qsizepolicy.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qtwidgets-config.h \
@@ -1166,6 +1171,8 @@ HealthSync_ALSE_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacO
 
 /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qsizepolicy.h:
 
+/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qmessagebox.h:
+
 /usr/local/opt/qt@5/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake:
 
 /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qlineedit.h:
@@ -1179,6 +1186,8 @@ HealthSync_ALSE_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacO
 /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qgridlayout.h:
 
 /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qframe.h:
+
+/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qdialog.h:
 
 /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QVBoxLayout:
 
@@ -1299,6 +1308,12 @@ HealthSync_ALSE_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacO
 /usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qarraydata.h:
 
 /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/main.cpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/fill_n.h:
+
+/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Usuario.cpp:
+
+/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Usuario.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__system_error/error_code.h:
 
@@ -1474,9 +1489,9 @@ CMakeFiles/4.3.2/CMakeCCompiler.cmake:
 
 CMakeFiles/4.3.2/CMakeSystem.cmake:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/assert.h:
-
 /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qabstractbutton.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/assert.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/unordered_map:
 
@@ -1559,10 +1574,6 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/ctime:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/cstring:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_scalar.h:
-
-/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qboxlayout.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/cstdlib:
 
@@ -1958,6 +1969,10 @@ CMakeFiles/4.3.2/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/nl_types.h:
 
+/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qboxlayout.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_scalar.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/ranges_iterator_concept.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__atomic/check_memory_order.h:
@@ -2187,6 +2202,10 @@ CMakeFiles/4.3.2/CMakeCXXCompiler.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/cerrno:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__functional/is_transparent.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__concepts/equality_comparable.h:
+
+/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QMessageBox:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/pthread/pthread.h:
 
@@ -2698,8 +2717,6 @@ CMakeFiles/4.3.2/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/void_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__concepts/equality_comparable.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/replace_copy_if.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__exception/terminate.h:
@@ -2789,8 +2806,6 @@ CMakeFiles/4.3.2/CMakeCXXCompiler.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__functional/reference_wrapper.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/cstddef:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/fill_n.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/disjunction.h:
 

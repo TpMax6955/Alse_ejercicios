@@ -1,6 +1,6 @@
 CMakeFiles/HealthSync_ALSE.dir/HealthSync_ALSE_autogen/mocs_compilation.cpp.o: \
   /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/HealthSync_ALSE_autogen/mocs_compilation.cpp \
-  /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/HealthSync_ALSE_autogen/6YEA5652QU/moc_Login.cpp \
+  /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/memory \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -484,9 +484,9 @@ CMakeFiles/HealthSync_ALSE.dir/HealthSync_ALSE_autogen/mocs_compilation.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/forward_like.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__variant/monostate.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdexcept \
-  /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/HealthSync_ALSE_autogen/6YEA5652QU/../../../include/Login.h \
-  /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/QWidget \
-  /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/qwidget.h \
+  /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/HealthSync_ALSE_autogen/6YEA5652QU/../../../include/Calculo.h \
+  /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/QDialog \
+  /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/qdialog.h \
   /usr/local/include/QtWidgets/qtwidgetsglobal.h \
   /usr/local/include/QtGui/qtguiglobal.h \
   /usr/local/include/QtCore/qglobal.h \
@@ -811,6 +811,7 @@ CMakeFiles/HealthSync_ALSE.dir/HealthSync_ALSE_autogen/mocs_compilation.cpp.o: \
   /usr/local/include/QtCore/qversiontagging.h \
   /usr/local/include/QtGui/qtgui-config.h \
   /usr/local/include/QtWidgets/qtwidgets-config.h \
+  /usr/local/include/QtWidgets/qwidget.h \
   /usr/local/include/QtGui/qwindowdefs.h \
   /usr/local/include/QtCore/qobjectdefs.h \
   /usr/local/include/QtCore/qnamespace.h \
@@ -886,13 +887,14 @@ CMakeFiles/HealthSync_ALSE.dir/HealthSync_ALSE_autogen/mocs_compilation.cpp.o: \
   /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/QLabel \
   /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/qlabel.h \
   /usr/local/include/QtWidgets/qframe.h \
-  /usr/local/include/QtWidgets/qwidget.h \
-  /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/QLineEdit \
-  /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/qlineedit.h \
-  /usr/local/include/QtGui/qtextcursor.h \
-  /usr/local/include/QtGui/qtextformat.h \
+  /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/QDoubleSpinBox \
+  /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/qspinbox.h \
+  /usr/local/include/QtWidgets/qabstractspinbox.h \
+  /usr/local/include/QtGui/qvalidator.h \
+  /usr/local/include/QtCore/qregularexpression.h \
   /usr/local/include/QtCore/qvariant.h /usr/local/include/QtCore/qmap.h \
-  /usr/local/include/QtGui/qpen.h /usr/local/include/QtGui/qtextoption.h \
+  /usr/local/include/QtCore/qlocale.h \
+  /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/QSpinBox \
   /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/QPushButton \
   /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/qpushbutton.h \
   /usr/local/include/QtWidgets/qabstractbutton.h \
@@ -903,6 +905,16 @@ CMakeFiles/HealthSync_ALSE.dir/HealthSync_ALSE_autogen/mocs_compilation.cpp.o: \
   /usr/local/include/QtWidgets/qlayoutitem.h \
   /usr/local/include/QtWidgets/qboxlayout.h \
   /usr/local/include/QtWidgets/qgridlayout.h \
+  /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/QHBoxLayout \
+  /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/HealthSync_ALSE_autogen/6YEA5652QU/moc_Login.cpp \
+  /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/HealthSync_ALSE_autogen/6YEA5652QU/../../../include/Login.h \
+  /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/QWidget \
+  /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/qwidget.h \
+  /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/QLineEdit \
+  /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/qlineedit.h \
+  /usr/local/include/QtGui/qtextcursor.h \
+  /usr/local/include/QtGui/qtextformat.h /usr/local/include/QtGui/qpen.h \
+  /usr/local/include/QtGui/qtextoption.h \
   /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/QMessageBox \
   /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/qmessagebox.h \
   /usr/local/include/QtWidgets/qdialog.h \
@@ -910,4 +922,9 @@ CMakeFiles/HealthSync_ALSE.dir/HealthSync_ALSE_autogen/mocs_compilation.cpp.o: \
   /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/HealthSync_ALSE_autogen/6YEA5652QU/../../../include/Principal.h \
   /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/HealthSync_ALSE_autogen/6YEA5652QU/../../../include/Usuario.h \
   /usr/local/opt/qt@5/lib/QtCore.framework/Headers/QString \
-  /usr/local/opt/qt@5/lib/QtCore.framework/Headers/qstring.h
+  /usr/local/opt/qt@5/lib/QtCore.framework/Headers/qstring.h \
+  /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/HealthSync_ALSE_autogen/6YEA5652QU/../../../include/DatabaseManager.h \
+  /usr/local/opt/qt@5/lib/QtSql.framework/Headers/QSqlDatabase \
+  /usr/local/opt/qt@5/lib/QtSql.framework/Headers/qsqldatabase.h \
+  /usr/local/include/QtSql/qtsqlglobal.h \
+  /usr/local/include/QtSql/qtsql-config.h

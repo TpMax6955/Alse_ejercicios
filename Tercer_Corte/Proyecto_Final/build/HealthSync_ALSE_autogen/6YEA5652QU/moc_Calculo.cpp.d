@@ -1,4 +1,4 @@
-/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/HealthSync_ALSE_autogen/6YEA5652QU/moc_Principal.cpp: /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Principal.h \
+/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp: /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Calculo.h \
   /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/HealthSync_ALSE_autogen/moc_predefs.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/AvailabilityInternal.h \
@@ -697,10 +697,6 @@
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg_va_list.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
-  /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Calculo.h \
-  /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/DatabaseManager.h \
-  /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Usuario.h \
-  /usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/QString \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qalgorithms.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qarraydata.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qatomic.h \
@@ -783,19 +779,13 @@
   /usr/local/Cellar/qt@5/5.15.19/lib/QtGui.framework/Versions/5/Headers/qtransform.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtGui.framework/Versions/5/Headers/qvalidator.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtGui.framework/Versions/5/Headers/qwindowdefs.h \
-  /usr/local/Cellar/qt@5/5.15.19/lib/QtSql.framework/Versions/5/Headers/QSqlDatabase \
-  /usr/local/Cellar/qt@5/5.15.19/lib/QtSql.framework/Versions/5/Headers/qsqldatabase.h \
-  /usr/local/Cellar/qt@5/5.15.19/lib/QtSql.framework/Versions/5/Headers/qtsql-config.h \
-  /usr/local/Cellar/qt@5/5.15.19/lib/QtSql.framework/Versions/5/Headers/qtsqlglobal.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QDialog \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QDoubleSpinBox \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QHBoxLayout \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QLabel \
-  /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QMessageBox \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QPushButton \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QSpinBox \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QVBoxLayout \
-  /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QWidget \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qabstractbutton.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qabstractspinbox.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qboxlayout.h \
@@ -805,7 +795,6 @@
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qlabel.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qlayout.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qlayoutitem.h \
-  /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qmessagebox.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qpushbutton.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qsizepolicy.h \
   /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qspinbox.h \

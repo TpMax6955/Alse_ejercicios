@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "HealthSync_ALSE_autogen"
   "CMakeFiles/HealthSync_ALSE.dir/HealthSync_ALSE_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/HealthSync_ALSE.dir/HealthSync_ALSE_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/HealthSync_ALSE.dir/src/Calculo.cpp.o"
+  "CMakeFiles/HealthSync_ALSE.dir/src/Calculo.cpp.o.d"
   "CMakeFiles/HealthSync_ALSE.dir/src/DatabaseManager.cpp.o"
   "CMakeFiles/HealthSync_ALSE.dir/src/DatabaseManager.cpp.o.d"
   "CMakeFiles/HealthSync_ALSE.dir/src/Login.cpp.o"

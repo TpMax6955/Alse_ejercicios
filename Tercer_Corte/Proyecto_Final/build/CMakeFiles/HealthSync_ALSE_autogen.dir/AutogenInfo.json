@@ -235,6 +235,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Calculo.h",
+			"MU",
+			"6YEA5652QU/moc_Calculo.cpp",
+			null
+		],
+		[
 			"/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/DatabaseManager.h",
 			"MU",
 			"6YEA5652QU/moc_DatabaseManager.cpp",
@@ -324,6 +330,11 @@
 	"SETTINGS_FILE" : "/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/HealthSync_ALSE_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Calculo.cpp",
+			"MU",
+			null
+		],
 		[
 			"/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/DatabaseManager.cpp",
 			"MU",

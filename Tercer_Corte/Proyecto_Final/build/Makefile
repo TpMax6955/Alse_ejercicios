@@ -179,6 +179,30 @@ HealthSync_ALSE_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HealthSync_ALSE.dir/build.make CMakeFiles/HealthSync_ALSE.dir/HealthSync_ALSE_autogen/mocs_compilation.cpp.s
 .PHONY : HealthSync_ALSE_autogen/mocs_compilation.cpp.s
 
+src/Calculo.o: src/Calculo.cpp.o
+.PHONY : src/Calculo.o
+
+# target to build an object file
+src/Calculo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HealthSync_ALSE.dir/build.make CMakeFiles/HealthSync_ALSE.dir/src/Calculo.cpp.o
+.PHONY : src/Calculo.cpp.o
+
+src/Calculo.i: src/Calculo.cpp.i
+.PHONY : src/Calculo.i
+
+# target to preprocess a source file
+src/Calculo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HealthSync_ALSE.dir/build.make CMakeFiles/HealthSync_ALSE.dir/src/Calculo.cpp.i
+.PHONY : src/Calculo.cpp.i
+
+src/Calculo.s: src/Calculo.cpp.s
+.PHONY : src/Calculo.s
+
+# target to generate assembly for a file
+src/Calculo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HealthSync_ALSE.dir/build.make CMakeFiles/HealthSync_ALSE.dir/src/Calculo.cpp.s
+.PHONY : src/Calculo.cpp.s
+
 src/DatabaseManager.o: src/DatabaseManager.cpp.o
 .PHONY : src/DatabaseManager.o
 
@@ -313,6 +337,9 @@ help:
 	@echo "... HealthSync_ALSE_autogen/mocs_compilation.o"
 	@echo "... HealthSync_ALSE_autogen/mocs_compilation.i"
 	@echo "... HealthSync_ALSE_autogen/mocs_compilation.s"
+	@echo "... src/Calculo.o"
+	@echo "... src/Calculo.i"
+	@echo "... src/Calculo.s"
 	@echo "... src/DatabaseManager.o"
 	@echo "... src/DatabaseManager.i"
 	@echo "... src/DatabaseManager.s"

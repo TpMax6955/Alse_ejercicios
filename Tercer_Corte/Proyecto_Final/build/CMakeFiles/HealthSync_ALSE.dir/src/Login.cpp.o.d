@@ -914,8 +914,19 @@ CMakeFiles/HealthSync_ALSE.dir/src/Login.cpp.o: \
   /usr/local/opt/qt@5/lib/QtCore.framework/Headers/qstring.h \
   /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Usuario.h \
   /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Principal.h \
+  /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Calculo.h \
+  /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/QDialog \
+  /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/qdialog.h \
+  /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/QDoubleSpinBox \
+  /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/qspinbox.h \
+  /usr/local/include/QtWidgets/qabstractspinbox.h \
+  /usr/local/include/QtGui/qvalidator.h \
+  /usr/local/include/QtCore/qregularexpression.h \
+  /usr/local/include/QtCore/qlocale.h \
+  /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/QSpinBox \
+  /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/QHBoxLayout \
   /usr/local/opt/qt@5/lib/QtCore.framework/Headers/QDebug \
   /usr/local/opt/qt@5/lib/QtCore.framework/Headers/qdebug.h \
   /usr/local/include/QtCore/qtextstream.h \
-  /usr/local/include/QtCore/qlocale.h /usr/local/include/QtCore/qset.h \
+  /usr/local/include/QtCore/qset.h \
   /usr/local/include/QtCore/qcontiguouscache.h

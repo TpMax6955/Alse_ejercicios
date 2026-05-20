@@ -701,10 +701,12 @@ HealthSync_ALSE_autogen/timestamp: \
 	/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/4.3.2/CMakeCXXCompiler.cmake \
 	/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/4.3.2/CMakeSystem.cmake \
 	/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/HealthSync_ALSE_autogen/moc_predefs.h \
+	/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Calculo.h \
 	/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/DatabaseManager.h \
 	/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Login.h \
 	/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Principal.h \
 	/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Usuario.h \
+	/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Calculo.cpp \
 	/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/DatabaseManager.cpp \
 	/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Login.cpp \
 	/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Principal.cpp \
@@ -732,6 +734,7 @@ HealthSync_ALSE_autogen/timestamp: \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qiterator.h \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qline.h \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qlist.h \
+	/usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qlocale.h \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qlogging.h \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qmap.h \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qmargins.h \
@@ -749,6 +752,7 @@ HealthSync_ALSE_autogen/timestamp: \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qrect.h \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qrefcount.h \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qregexp.h \
+	/usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qregularexpression.h \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qscopedpointer.h \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qshareddata.h \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qsharedpointer.h \
@@ -793,14 +797,24 @@ HealthSync_ALSE_autogen/timestamp: \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtGui.framework/Versions/5/Headers/qtgui-config.h \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtGui.framework/Versions/5/Headers/qtguiglobal.h \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtGui.framework/Versions/5/Headers/qtransform.h \
+	/usr/local/Cellar/qt@5/5.15.19/lib/QtGui.framework/Versions/5/Headers/qvalidator.h \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtGui.framework/Versions/5/Headers/qwindowdefs.h \
+	/usr/local/Cellar/qt@5/5.15.19/lib/QtSql.framework/Versions/5/Headers/QSqlDatabase \
+	/usr/local/Cellar/qt@5/5.15.19/lib/QtSql.framework/Versions/5/Headers/qsqldatabase.h \
+	/usr/local/Cellar/qt@5/5.15.19/lib/QtSql.framework/Versions/5/Headers/qtsql-config.h \
+	/usr/local/Cellar/qt@5/5.15.19/lib/QtSql.framework/Versions/5/Headers/qtsqlglobal.h \
+	/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QDialog \
+	/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QDoubleSpinBox \
+	/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QHBoxLayout \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QLabel \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QLineEdit \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QMessageBox \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QPushButton \
+	/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QSpinBox \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QVBoxLayout \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QWidget \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qabstractbutton.h \
+	/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qabstractspinbox.h \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qboxlayout.h \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qdialog.h \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qframe.h \
@@ -812,6 +826,7 @@ HealthSync_ALSE_autogen/timestamp: \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qmessagebox.h \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qpushbutton.h \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qsizepolicy.h \
+	/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qspinbox.h \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qtwidgets-config.h \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qtwidgetsglobal.h \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qwidget.h \

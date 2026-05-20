@@ -818,6 +818,7 @@ CMakeFiles/HealthSync_ALSE.dir/src/DatabaseManager.cpp.o: \
   /usr/local/include/QtCore/qstringview.h \
   /usr/local/opt/qt@5/lib/QtCore.framework/Headers/QString \
   /usr/local/opt/qt@5/lib/QtCore.framework/Headers/qstring.h \
+  /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Usuario.h \
   /usr/local/opt/qt@5/lib/QtSql.framework/Headers/QSqlQuery \
   /usr/local/opt/qt@5/lib/QtSql.framework/Headers/qsqlquery.h \
   /usr/local/include/QtSql/qsqldatabase.h \

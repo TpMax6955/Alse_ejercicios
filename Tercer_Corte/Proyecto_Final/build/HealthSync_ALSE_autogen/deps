@@ -703,11 +703,14 @@ HealthSync_ALSE_autogen/timestamp: \
 	/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/HealthSync_ALSE_autogen/moc_predefs.h \
 	/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/DatabaseManager.h \
 	/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Login.h \
+	/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Principal.h \
 	/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Usuario.h \
 	/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/DatabaseManager.cpp \
 	/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Login.cpp \
+	/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Principal.cpp \
 	/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Usuario.cpp \
 	/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/main.cpp \
+	/usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/QString \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qalgorithms.h \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qarraydata.h \
 	/usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qatomic.h \

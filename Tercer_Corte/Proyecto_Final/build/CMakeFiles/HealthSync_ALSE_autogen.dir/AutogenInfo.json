@@ -247,6 +247,12 @@
 			null
 		],
 		[
+			"/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Principal.h",
+			"MU",
+			"6YEA5652QU/moc_Principal.cpp",
+			null
+		],
+		[
 			"/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Usuario.h",
 			"MU",
 			"6YEA5652QU/moc_Usuario.cpp",
@@ -325,6 +331,11 @@
 		],
 		[
 			"/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Login.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Principal.cpp",
 			"MU",
 			null
 		],

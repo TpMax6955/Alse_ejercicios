@@ -912,6 +912,8 @@ CMakeFiles/HealthSync_ALSE.dir/src/Login.cpp.o: \
   /usr/local/include/QtSql/qtsql-config.h \
   /usr/local/opt/qt@5/lib/QtCore.framework/Headers/QString \
   /usr/local/opt/qt@5/lib/QtCore.framework/Headers/qstring.h \
+  /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Usuario.h \
+  /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Principal.h \
   /usr/local/opt/qt@5/lib/QtCore.framework/Headers/QDebug \
   /usr/local/opt/qt@5/lib/QtCore.framework/Headers/qdebug.h \
   /usr/local/include/QtCore/qtextstream.h \

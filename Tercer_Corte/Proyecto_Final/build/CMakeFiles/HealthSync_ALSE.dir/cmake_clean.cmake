@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/HealthSync_ALSE.dir/src/DatabaseManager.cpp.o.d"
   "CMakeFiles/HealthSync_ALSE.dir/src/Login.cpp.o"
   "CMakeFiles/HealthSync_ALSE.dir/src/Login.cpp.o.d"
+  "CMakeFiles/HealthSync_ALSE.dir/src/Principal.cpp.o"
+  "CMakeFiles/HealthSync_ALSE.dir/src/Principal.cpp.o.d"
   "CMakeFiles/HealthSync_ALSE.dir/src/Usuario.cpp.o"
   "CMakeFiles/HealthSync_ALSE.dir/src/Usuario.cpp.o.d"
   "CMakeFiles/HealthSync_ALSE.dir/src/main.cpp.o"

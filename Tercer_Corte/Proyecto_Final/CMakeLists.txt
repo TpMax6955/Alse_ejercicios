@@ -12,8 +12,18 @@ include_directories(include)
 
 set(SOURCES 
     src/main.cpp
+    src/DatabaseManager.cpp
+    src/Login.cpp
+    src/Usuario.cpp
+    src/Principal.cpp
+    src/Calculo.cpp
+    include/Calculo.h
+    include/DatabaseManager.h   
+    include/Login.h
+    include/Usuario.h
+    include/Principal.h
 )
 
 add_executable(${PROJECT_NAME} ${SOURCES})
 
-target_link_libraries(${PROJECT_NAME} Qt5::Widgets Qt5::Sql Qt5::Charts)
+target_link_libraries(HealthSync_ALSE Qt5::Widgets Qt5::Sql Qt5::Charts)

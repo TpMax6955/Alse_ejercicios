@@ -7,6 +7,9 @@
 
 #include <QSqlDatabase>
 #include <QString>
+#include <QVector>
+#include <QPair>
+#include "Usuario.h"
 
 /**
  * @class DatabaseManager
@@ -14,10 +17,19 @@
  */
 class DatabaseManager {
 public:
+    DatabaseManager();
     DatabaseManager(const QString& path);
     ~DatabaseManager();
 
     bool init();
+
+    bool validarUsuario(const QString& username, const QString& password);
+    Usuario obtenerUsuario(const QString& username);
+    bool registrarUsuario(const QString& username, const QString& password, int edad, const QString& genero, double altura, double peso, double actividad);
+    bool registrarMedicion(int usuario_id, double peso, int presion_sis, int presion_dia, int glucosa);
+    
+    QVector<QPair<QString, double>> obtenerHistorialPeso(int usuario_id);
+    bool exportarHistorialCSV(int usuario_id, const QString& ruta_archivo);
 
 private:
     QSqlDatabase m_db;
@@ -26,4 +38,4 @@ private:
     bool createTables();
 };
 
-#endif
+#endif // DATABASEMANAGER_H

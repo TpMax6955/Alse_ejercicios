@@ -882,11 +882,11 @@ CMakeFiles/HealthSync_ALSE.dir/src/main.cpp.o: \
   /usr/local/include/QtSql/qtsql-config.h \
   /usr/local/opt/qt@5/lib/QtCore.framework/Headers/QString \
   /usr/local/opt/qt@5/lib/QtCore.framework/Headers/qstring.h \
-  /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Usuario.h \
   /usr/local/opt/qt@5/lib/QtCore.framework/Headers/QVector \
   /usr/local/opt/qt@5/lib/QtCore.framework/Headers/qvector.h \
   /usr/local/opt/qt@5/lib/QtCore.framework/Headers/QPair \
   /usr/local/opt/qt@5/lib/QtCore.framework/Headers/qpair.h \
+  /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Usuario.h \
   /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Login.h \
   /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/QWidget \
   /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/qwidget.h \

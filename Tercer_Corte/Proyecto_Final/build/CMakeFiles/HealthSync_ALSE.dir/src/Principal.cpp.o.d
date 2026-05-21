@@ -1456,4 +1456,6 @@ CMakeFiles/HealthSync_ALSE.dir/src/Principal.cpp.o: \
   /usr/local/opt/qt@5/lib/QtCore.framework/Headers/QPair \
   /usr/local/opt/qt@5/lib/QtCore.framework/Headers/qpair.h \
   /usr/local/opt/qt@5/lib/QtCore.framework/Headers/QDateTime \
-  /usr/local/opt/qt@5/lib/QtCore.framework/Headers/qdatetime.h
+  /usr/local/opt/qt@5/lib/QtCore.framework/Headers/qdatetime.h \
+  /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/QFileDialog \
+  /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/qfiledialog.h

@@ -818,7 +818,6 @@ CMakeFiles/HealthSync_ALSE.dir/src/DatabaseManager.cpp.o: \
   /usr/local/include/QtCore/qstringview.h \
   /usr/local/opt/qt@5/lib/QtCore.framework/Headers/QString \
   /usr/local/opt/qt@5/lib/QtCore.framework/Headers/qstring.h \
-  /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Usuario.h \
   /usr/local/opt/qt@5/lib/QtCore.framework/Headers/QVector \
   /usr/local/opt/qt@5/lib/QtCore.framework/Headers/qvector.h \
   /usr/local/include/QtCore/qalgorithms.h \
@@ -844,6 +843,7 @@ CMakeFiles/HealthSync_ALSE.dir/src/DatabaseManager.cpp.o: \
   /usr/local/include/QtCore/qcontainertools_impl.h \
   /usr/local/opt/qt@5/lib/QtCore.framework/Headers/QPair \
   /usr/local/opt/qt@5/lib/QtCore.framework/Headers/qpair.h \
+  /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Usuario.h \
   /usr/local/opt/qt@5/lib/QtSql.framework/Headers/QSqlQuery \
   /usr/local/opt/qt@5/lib/QtSql.framework/Headers/qsqlquery.h \
   /usr/local/include/QtSql/qsqldatabase.h \
@@ -877,4 +877,11 @@ CMakeFiles/HealthSync_ALSE.dir/src/DatabaseManager.cpp.o: \
   /usr/local/include/QtCore/qset.h \
   /usr/local/include/QtCore/qcontiguouscache.h \
   /usr/local/include/QtCore/qsharedpointer.h \
-  /usr/local/include/QtCore/qsharedpointer_impl.h
+  /usr/local/include/QtCore/qsharedpointer_impl.h \
+  /usr/local/opt/qt@5/lib/QtCore.framework/Headers/QFile \
+  /usr/local/opt/qt@5/lib/QtCore.framework/Headers/qfile.h \
+  /usr/local/include/QtCore/qfiledevice.h \
+  /usr/local/opt/qt@5/lib/QtCore.framework/Headers/QTextStream \
+  /usr/local/opt/qt@5/lib/QtCore.framework/Headers/qtextstream.h \
+  /usr/local/opt/qt@5/lib/QtCore.framework/Headers/QVariant \
+  /usr/local/opt/qt@5/lib/QtCore.framework/Headers/qvariant.h

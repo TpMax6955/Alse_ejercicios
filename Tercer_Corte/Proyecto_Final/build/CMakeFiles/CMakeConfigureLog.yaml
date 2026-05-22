@@ -20,9 +20,6 @@ events:
     names:
       - "uname"
     candidate_directories:
-      - "/usr/local/opt/qt@5/bin/"
-      - "/usr/local/opt/qt@5/sbin/"
-      - "/usr/local/opt/qt@5/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
@@ -33,15 +30,10 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
     searched_directories:
-      - "/usr/local/opt/qt@5/bin/uname"
-      - "/usr/local/opt/qt@5/sbin/uname"
-      - "/usr/local/opt/qt@5/uname"
       - "/usr/local/bin/uname"
       - "/System/Cryptexes/App/usr/bin/uname"
     found: "/usr/bin/uname"
     search_context:
-      CMAKE_PREFIX_PATH:
-        - "/usr/local/opt/qt@5"
       ENV{PATH}:
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -80,9 +72,6 @@ events:
       - "make"
       - "smake"
     candidate_directories:
-      - "/usr/local/opt/qt@5/bin/"
-      - "/usr/local/opt/qt@5/sbin/"
-      - "/usr/local/opt/qt@5/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
@@ -93,9 +82,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
     searched_directories:
-      - "/usr/local/opt/qt@5/bin/gmake"
-      - "/usr/local/opt/qt@5/sbin/gmake"
-      - "/usr/local/opt/qt@5/gmake"
       - "/usr/local/bin/gmake"
       - "/System/Cryptexes/App/usr/bin/gmake"
       - "/usr/bin/gmake"
@@ -105,73 +91,10 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/gmake"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/gmake"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/gmake"
-      - "/usr/local/opt/qt@5/bin/make"
-      - "/usr/local/opt/qt@5/sbin/make"
-      - "/usr/local/opt/qt@5/make"
       - "/usr/local/bin/make"
       - "/System/Cryptexes/App/usr/bin/make"
     found: "/usr/bin/make"
     search_context:
-      CMAKE_PREFIX_PATH:
-        - "/usr/local/opt/qt@5"
-      ENV{PATH}:
-        - "/usr/local/bin"
-        - "/System/Cryptexes/App/usr/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/usr/sbin"
-        - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/local/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
-      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
-      - "CMakeLists.txt:2 (project)"
-    mode: "program"
-    variable: "CMAKE_C_COMPILER"
-    description: "C compiler"
-    settings:
-      SearchFramework: "FIRST"
-      SearchAppBundle: "FIRST"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "cc"
-      - "gcc"
-      - "cl"
-      - "bcc"
-      - "xlc"
-      - "icx"
-      - "clang"
-    candidate_directories:
-      - "/usr/local/opt/qt@5/bin/"
-      - "/usr/local/opt/qt@5/sbin/"
-      - "/usr/local/opt/qt@5/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-    searched_directories:
-      - "/usr/local/opt/qt@5/bin/cc"
-      - "/usr/local/opt/qt@5/sbin/cc"
-      - "/usr/local/opt/qt@5/cc"
-      - "/usr/local/bin/cc"
-      - "/System/Cryptexes/App/usr/bin/cc"
-    found: "/usr/bin/cc"
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "/usr/local/opt/qt@5"
       ENV{PATH}:
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -208,8 +131,6 @@ events:
       - "/usr/local/share/cmake/Modules/"
     found: "/usr/local/share/cmake/Modules/CMakeCCompilerId.c.in"
     search_context:
-      CMAKE_PREFIX_PATH:
-        - "/usr/local/opt/qt@5"
       ENV{PATH}:
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -229,7 +150,7 @@ events:
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: /usr/bin/cc 
+      Compiler: /usr/bin/clang 
       Build flags: 
       Id flags:  
       
@@ -249,7 +170,7 @@ events:
       - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      Detecting C compiler apple sysroot: "/usr/bin/cc" "-E" "apple-sdk.c"
+      Detecting C compiler apple sysroot: "/usr/bin/clang" "-E" "apple-sdk.c"
         # 1 "apple-sdk.c"
         # 1 "<built-in>" 1
         # 1 "<built-in>" 3
@@ -314,8 +235,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
     found: "/usr/bin/ar"
     search_context:
-      CMAKE_PREFIX_PATH:
-        - "/usr/local/opt/qt@5"
       ENV{PATH}:
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -357,8 +276,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
     found: "/usr/bin/ranlib"
     search_context:
-      CMAKE_PREFIX_PATH:
-        - "/usr/local/opt/qt@5"
       ENV{PATH}:
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -400,8 +317,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
     found: "/usr/bin/strip"
     search_context:
-      CMAKE_PREFIX_PATH:
-        - "/usr/local/opt/qt@5"
       ENV{PATH}:
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -443,8 +358,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
     found: "/usr/bin/ld"
     search_context:
-      CMAKE_PREFIX_PATH:
-        - "/usr/local/opt/qt@5"
       ENV{PATH}:
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -486,8 +399,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
     found: "/usr/bin/nm"
     search_context:
-      CMAKE_PREFIX_PATH:
-        - "/usr/local/opt/qt@5"
       ENV{PATH}:
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -529,8 +440,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
     found: "/usr/bin/objdump"
     search_context:
-      CMAKE_PREFIX_PATH:
-        - "/usr/local/opt/qt@5"
       ENV{PATH}:
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -582,8 +491,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/objcopy"
     found: false
     search_context:
-      CMAKE_PREFIX_PATH:
-        - "/usr/local/opt/qt@5"
       ENV{PATH}:
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -635,8 +542,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/readelf"
     found: false
     search_context:
-      CMAKE_PREFIX_PATH:
-        - "/usr/local/opt/qt@5"
       ENV{PATH}:
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -688,8 +593,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
     found: false
     search_context:
-      CMAKE_PREFIX_PATH:
-        - "/usr/local/opt/qt@5"
       ENV{PATH}:
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -741,8 +644,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/addr2line"
     found: false
     search_context:
-      CMAKE_PREFIX_PATH:
-        - "/usr/local/opt/qt@5"
       ENV{PATH}:
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -794,49 +695,6 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
     found: false
     search_context:
-      CMAKE_PREFIX_PATH:
-        - "/usr/local/opt/qt@5"
-      ENV{PATH}:
-        - "/usr/local/bin"
-        - "/System/Cryptexes/App/usr/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/usr/sbin"
-        - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/local/share/cmake/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
-      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
-      - "CMakeLists.txt:2 (project)"
-    mode: "program"
-    variable: "CMAKE_CXX_COMPILER"
-    description: "CXX compiler"
-    settings:
-      SearchFramework: "FIRST"
-      SearchAppBundle: "FIRST"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "c++"
-      - "g++"
-      - "cl"
-      - "bcc"
-      - "icpx"
-      - "icx"
-      - "clang++"
-    candidate_directories:
-      - "/usr/bin/"
-    found: "/usr/bin/c++"
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "/usr/local/opt/qt@5"
       ENV{PATH}:
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -873,8 +731,6 @@ events:
       - "/usr/local/share/cmake/Modules/"
     found: "/usr/local/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
-      CMAKE_PREFIX_PATH:
-        - "/usr/local/opt/qt@5"
       ENV{PATH}:
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -894,7 +750,7 @@ events:
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: /usr/bin/c++ 
+      Compiler: /usr/bin/clang++ 
       Build flags: 
       Id flags:  
       
@@ -914,7 +770,7 @@ events:
       - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      Detecting CXX compiler apple sysroot: "/usr/bin/c++" "-E" "apple-sdk.cpp"
+      Detecting CXX compiler apple sysroot: "/usr/bin/clang++" "-E" "apple-sdk.cpp"
         # 1 "apple-sdk.cpp"
         # 1 "<built-in>" 1
         # 1 "<built-in>" 3
@@ -968,9 +824,6 @@ events:
     names:
       - "install_name_tool"
     candidate_directories:
-      - "/usr/local/opt/qt@5/bin/"
-      - "/usr/local/opt/qt@5/sbin/"
-      - "/usr/local/opt/qt@5/"
       - "/usr/local/bin/"
       - "/System/Cryptexes/App/usr/bin/"
       - "/usr/bin/"
@@ -981,15 +834,10 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
     searched_directories:
-      - "/usr/local/opt/qt@5/bin/install_name_tool"
-      - "/usr/local/opt/qt@5/sbin/install_name_tool"
-      - "/usr/local/opt/qt@5/install_name_tool"
       - "/usr/local/bin/install_name_tool"
       - "/System/Cryptexes/App/usr/bin/install_name_tool"
     found: "/usr/bin/install_name_tool"
     search_context:
-      CMAKE_PREFIX_PATH:
-        - "/usr/local/opt/qt@5"
       ENV{PATH}:
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -1010,8 +858,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/CMakeScratch/TryCompile-sN8rqr"
-      binary: "/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/CMakeScratch/TryCompile-sN8rqr"
+      source: "/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/CMakeScratch/TryCompile-0rYGjL"
+      binary: "/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/CMakeScratch/TryCompile-0rYGjL"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -1024,18 +872,18 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/CMakeScratch/TryCompile-sN8rqr'
+        Change Dir: '/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/CMakeScratch/TryCompile-0rYGjL'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b7e06/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b7e06.dir/build.make CMakeFiles/cmTC_b7e06.dir/build
-        Building C object CMakeFiles/cmTC_b7e06.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -Wl,-v -MD -MT CMakeFiles/cmTC_b7e06.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_b7e06.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_b7e06.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0fd5c/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0fd5c.dir/build.make CMakeFiles/cmTC_0fd5c.dir/build
+        Building C object CMakeFiles/cmTC_0fd5c.dir/CMakeCCompilerABI.c.o
+        /usr/bin/clang   -v -Wl,-v -MD -MT CMakeFiles/cmTC_0fd5c.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_0fd5c.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_0fd5c.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
         Apple clang version 17.0.0 (clang-1700.0.13.5)
         Target: x86_64-apple-darwin24.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -fdebug-compilation-dir=/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/CMakeScratch/TryCompile-sN8rqr -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/CMakeScratch/TryCompile-sN8rqr -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_b7e06.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_b7e06.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b7e06.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -fdebug-compilation-dir=/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/CMakeScratch/TryCompile-0rYGjL -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/CMakeScratch/TryCompile-0rYGjL -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_0fd5c.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_0fd5c.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_0fd5c.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
         clang -cc1 version 17.0.0 (clang-1700.0.13.5) default target x86_64-apple-darwin24.6.0
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks"
@@ -1048,13 +896,13 @@ events:
          /Library/Developer/CommandLineTools/usr/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking C executable cmTC_b7e06
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7e06.dir/link.txt --verbose=1
+        Linking C executable cmTC_0fd5c
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0fd5c.dir/link.txt --verbose=1
         Apple clang version 17.0.0 (clang-1700.0.13.5)
         Target: x86_64-apple-darwin24.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 15.0.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_b7e06 -L/usr/local/lib -v CMakeFiles/cmTC_b7e06.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 15.0.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_0fd5c -L/usr/local/lib -v CMakeFiles/cmTC_0fd5c.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1167.5
         BUILD 01:44:07 Apr 30 2025
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -1067,7 +915,7 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_b7e06.dir/CMakeCCompilerABI.c.o -o cmTC_b7e06
+        /usr/bin/clang  -v -Wl,-v CMakeFiles/cmTC_0fd5c.dir/CMakeCCompilerABI.c.o -o cmTC_0fd5c
         
       exitCode: 0
   -
@@ -1111,18 +959,18 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/CMakeScratch/TryCompile-sN8rqr']
+        ignore line: [Change Dir: '/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/CMakeScratch/TryCompile-0rYGjL']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b7e06/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b7e06.dir/build.make CMakeFiles/cmTC_b7e06.dir/build]
-        ignore line: [Building C object CMakeFiles/cmTC_b7e06.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -Wl -v -MD -MT CMakeFiles/cmTC_b7e06.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_b7e06.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_b7e06.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0fd5c/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0fd5c.dir/build.make CMakeFiles/cmTC_0fd5c.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_0fd5c.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/clang   -v -Wl -v -MD -MT CMakeFiles/cmTC_0fd5c.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_0fd5c.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_0fd5c.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Apple clang version 17.0.0 (clang-1700.0.13.5)]
         ignore line: [Target: x86_64-apple-darwin24.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -fdebug-compilation-dir=/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/CMakeScratch/TryCompile-sN8rqr -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/CMakeScratch/TryCompile-sN8rqr -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_b7e06.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_b7e06.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b7e06.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -fdebug-compilation-dir=/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/CMakeScratch/TryCompile-0rYGjL -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/CMakeScratch/TryCompile-0rYGjL -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_0fd5c.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_0fd5c.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_0fd5c.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.0.13.5) default target x86_64-apple-darwin24.6.0]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks"]
@@ -1135,13 +983,13 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/usr/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking C executable cmTC_b7e06]
-        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7e06.dir/link.txt --verbose=1]
+        ignore line: [Linking C executable cmTC_0fd5c]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0fd5c.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 17.0.0 (clang-1700.0.13.5)]
         ignore line: [Target: x86_64-apple-darwin24.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 15.0.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_b7e06 -L/usr/local/lib -v CMakeFiles/cmTC_b7e06.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 15.0.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_0fd5c -L/usr/local/lib -v CMakeFiles/cmTC_0fd5c.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1158,10 +1006,10 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_b7e06] ==> ignore
+          arg [cmTC_0fd5c] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_b7e06.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_0fd5c.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
         linker tool for 'C': /Library/Developer/CommandLineTools/usr/bin/ld
@@ -1204,8 +1052,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/CMakeScratch/TryCompile-cli79G"
-      binary: "/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/CMakeScratch/TryCompile-cli79G"
+      source: "/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/CMakeScratch/TryCompile-d6gIsF"
+      binary: "/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/CMakeScratch/TryCompile-d6gIsF"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1219,19 +1067,19 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/CMakeScratch/TryCompile-cli79G'
+        Change Dir: '/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/CMakeScratch/TryCompile-d6gIsF'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ab5f6/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ab5f6.dir/build.make CMakeFiles/cmTC_ab5f6.dir/build
-        Building CXX object CMakeFiles/cmTC_ab5f6.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -Wl,-v -MD -MT CMakeFiles/cmTC_ab5f6.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_ab5f6.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_ab5f6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c1c63/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c1c63.dir/build.make CMakeFiles/cmTC_c1c63.dir/build
+        Building CXX object CMakeFiles/cmTC_c1c63.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/clang++   -v -Wl,-v -MD -MT CMakeFiles/cmTC_c1c63.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_c1c63.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_c1c63.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 17.0.0 (clang-1700.0.13.5)
         Target: x86_64-apple-darwin24.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -fdebug-compilation-dir=/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/CMakeScratch/TryCompile-cli79G -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/CMakeScratch/TryCompile-cli79G -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_ab5f6.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_ab5f6.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ab5f6.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -fdebug-compilation-dir=/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/CMakeScratch/TryCompile-d6gIsF -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/CMakeScratch/TryCompile-d6gIsF -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_c1c63.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_c1c63.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c1c63.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 17.0.0 (clang-1700.0.13.5) default target x86_64-apple-darwin24.6.0
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks"
@@ -1245,13 +1093,13 @@ events:
          /Library/Developer/CommandLineTools/usr/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_ab5f6
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab5f6.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_c1c63
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1c63.dir/link.txt --verbose=1
         Apple clang version 17.0.0 (clang-1700.0.13.5)
         Target: x86_64-apple-darwin24.6.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 15.0.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_ab5f6 -L/usr/local/lib -v CMakeFiles/cmTC_ab5f6.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 15.0.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_c1c63 -L/usr/local/lib -v CMakeFiles/cmTC_c1c63.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1167.5
         BUILD 01:44:07 Apr 30 2025
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -1264,7 +1112,7 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_ab5f6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ab5f6
+        /usr/bin/clang++  -v -Wl,-v CMakeFiles/cmTC_c1c63.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c1c63
         
       exitCode: 0
   -
@@ -1310,19 +1158,19 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/CMakeScratch/TryCompile-cli79G']
+        ignore line: [Change Dir: '/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/CMakeScratch/TryCompile-d6gIsF']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ab5f6/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ab5f6.dir/build.make CMakeFiles/cmTC_ab5f6.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_ab5f6.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -Wl -v -MD -MT CMakeFiles/cmTC_ab5f6.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_ab5f6.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_ab5f6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c1c63/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c1c63.dir/build.make CMakeFiles/cmTC_c1c63.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_c1c63.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/clang++   -v -Wl -v -MD -MT CMakeFiles/cmTC_c1c63.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_c1c63.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_c1c63.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 17.0.0 (clang-1700.0.13.5)]
         ignore line: [Target: x86_64-apple-darwin24.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -fdebug-compilation-dir=/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/CMakeScratch/TryCompile-cli79G -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/CMakeScratch/TryCompile-cli79G -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_ab5f6.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_ab5f6.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ab5f6.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -fdebug-compilation-dir=/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/CMakeScratch/TryCompile-d6gIsF -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/CMakeScratch/TryCompile-d6gIsF -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_c1c63.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_c1c63.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c1c63.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.0.13.5) default target x86_64-apple-darwin24.6.0]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks"]
@@ -1336,13 +1184,13 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/usr/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_ab5f6]
-        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab5f6.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_c1c63]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1c63.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 17.0.0 (clang-1700.0.13.5)]
         ignore line: [Target: x86_64-apple-darwin24.6.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 15.0.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_ab5f6 -L/usr/local/lib -v CMakeFiles/cmTC_ab5f6.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 15.0.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_c1c63 -L/usr/local/lib -v CMakeFiles/cmTC_c1c63.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1359,10 +1207,10 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_ab5f6] ==> ignore
+          arg [cmTC_c1c63] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_ab5f6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_c1c63.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
@@ -1403,7 +1251,7 @@ events:
       - "/usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake:93 (find_package)"
       - "/usr/local/opt/qt@5/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake:93 (find_package)"
       - "/usr/local/opt/qt@5/lib/cmake/Qt5/Qt5Config.cmake:28 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     name: "Qt5Core"
     configs:
       -
@@ -1533,7 +1381,7 @@ events:
       - "/usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake:227 (include)"
       - "/usr/local/opt/qt@5/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake:93 (find_package)"
       - "/usr/local/opt/qt@5/lib/cmake/Qt5/Qt5Config.cmake:28 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     mode: "path"
     variable: "_qt5gui_OPENGL_INCLUDE_DIR"
     description: "Path to a file."
@@ -1634,7 +1482,7 @@ events:
       - "/usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake:227 (include)"
       - "/usr/local/opt/qt@5/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake:93 (find_package)"
       - "/usr/local/opt/qt@5/lib/cmake/Qt5/Qt5Config.cmake:28 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     mode: "path"
     variable: "_actual_dir"
     description: "Path to a file."
@@ -1772,7 +1620,7 @@ events:
       - "/usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake:227 (include)"
       - "/usr/local/opt/qt@5/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake:93 (find_package)"
       - "/usr/local/opt/qt@5/lib/cmake/Qt5/Qt5Config.cmake:28 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     mode: "library"
     variable: "Qt5Gui_OpenGL_LIBRARY"
     description: "Path to a library."
@@ -1854,7 +1702,7 @@ events:
       - "/usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake:227 (include)"
       - "/usr/local/opt/qt@5/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake:93 (find_package)"
       - "/usr/local/opt/qt@5/lib/cmake/Qt5/Qt5Config.cmake:28 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     mode: "library"
     variable: "Qt5Gui_OpenGL_LIBRARY_DEBUG"
     description: "Path to a library."
@@ -1955,7 +1803,7 @@ events:
     backtrace:
       - "/usr/local/opt/qt@5/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake:93 (find_package)"
       - "/usr/local/opt/qt@5/lib/cmake/Qt5/Qt5Config.cmake:28 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     name: "Qt5Gui"
     configs:
       -
@@ -2082,7 +1930,7 @@ events:
     kind: "find_package-v1"
     backtrace:
       - "/usr/local/opt/qt@5/lib/cmake/Qt5/Qt5Config.cmake:28 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     name: "Qt5Widgets"
     configs:
       -
@@ -2207,7 +2055,7 @@ events:
     kind: "find_package-v1"
     backtrace:
       - "/usr/local/opt/qt@5/lib/cmake/Qt5/Qt5Config.cmake:28 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     name: "Qt5Sql"
     configs:
       -
@@ -2332,7 +2180,7 @@ events:
     kind: "find_package-v1"
     backtrace:
       - "/usr/local/opt/qt@5/lib/cmake/Qt5/Qt5Config.cmake:28 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     name: "Qt5Charts"
     configs:
       -
@@ -2456,7 +2304,7 @@ events:
   -
     kind: "find_package-v1"
     backtrace:
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     name: "Qt5"
     components:
       -
@@ -3338,434 +3186,6 @@ events:
         - "/opt"
         - "/sw"
         - "/opt/local"
-      CMAKE_SYSTEM_FRAMEWORK_PATH:
-        - "~/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/Library/Frameworks"
-        - "/Library/Frameworks"
-        - "/Network/Library/Frameworks"
-        - "/System/Library/Frameworks"
-...
-
----
-events:
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:5 (find_path)"
-      - "/usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake:227 (include)"
-      - "/usr/local/opt/qt@5/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake:93 (find_package)"
-      - "/usr/local/opt/qt@5/lib/cmake/Qt5/Qt5Config.cmake:28 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
-    mode: "path"
-    variable: "_qt5gui_OPENGL_INCLUDE_DIR"
-    description: "Path to a file."
-    settings:
-      SearchFramework: "FIRST"
-      SearchAppBundle: "FIRST"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "gl.h"
-    candidate_directories:
-      - "/usr/local/opt/qt@5/include/"
-      - "/usr/local/opt/qt@5/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/usr/local/include/"
-      - "/usr/local/"
-      - "/usr/include/"
-      - "/usr/"
-      - "/include/"
-      - "/usr/X11R6/include/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/include/"
-      - "/usr/pkg/"
-      - "/opt/include/"
-      - "/opt/"
-      - "/sw/include/"
-      - "/sw/"
-      - "/opt/local/include/"
-      - "/opt/local/"
-      - "/usr/include/X11/"
-      - "/Users/maxi/Library/Frameworks/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
-      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
-      - "/Library/Frameworks/"
-      - "/Network/Library/Frameworks/"
-      - "/System/Library/Frameworks/"
-      - "/System/Library/Frameworks/OpenGL.framework/Headers/"
-    found: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/"
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "/usr/local/opt/qt@5"
-      ENV{PATH}:
-        - "/usr/local/bin"
-        - "/System/Cryptexes/App/usr/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/usr/sbin"
-        - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
-        - "/usr/local"
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/usr/local"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-        - "/sw"
-        - "/opt/local"
-      CMAKE_SYSTEM_INCLUDE_PATH:
-        - "/usr/include/X11"
-      CMAKE_SYSTEM_FRAMEWORK_PATH:
-        - "~/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/Library/Frameworks"
-        - "/Library/Frameworks"
-        - "/Network/Library/Frameworks"
-        - "/System/Library/Frameworks"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:28 (find_path)"
-      - "/usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:99 (_qt5gui_find_extra_libs)"
-      - "/usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake:227 (include)"
-      - "/usr/local/opt/qt@5/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake:93 (find_package)"
-      - "/usr/local/opt/qt@5/lib/cmake/Qt5/Qt5Config.cmake:28 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
-    mode: "path"
-    variable: "_actual_dir"
-    description: "Path to a file."
-    settings:
-      SearchFramework: "FIRST"
-      SearchAppBundle: "FIRST"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "/System/Library/Frameworks/OpenGL.framework/Headers"
-    candidate_directories:
-      - "/usr/local/opt/qt@5/include/"
-      - "/usr/local/opt/qt@5/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/usr/local/include/"
-      - "/usr/local/"
-      - "/usr/include/"
-      - "/usr/"
-      - "/include/"
-      - "/usr/X11R6/include/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/include/"
-      - "/usr/pkg/"
-      - "/opt/include/"
-      - "/opt/"
-      - "/sw/include/"
-      - "/sw/"
-      - "/opt/local/include/"
-      - "/opt/local/"
-      - "/usr/include/X11/"
-      - "/Users/maxi/Library/Frameworks/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
-      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
-      - "/Library/Frameworks/"
-      - "/Network/Library/Frameworks/"
-      - "/System/Library/Frameworks/"
-    searched_directories:
-      - "/usr/local/opt/qt@5/include//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/usr/local/opt/qt@5//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/usr/local/bin//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/System/Cryptexes/App/usr/bin//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/usr/bin//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/bin//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/usr/sbin//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/sbin//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/usr/local/include//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/usr/local//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/usr/include//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/usr//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/include//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/usr/X11R6/include//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/usr/X11R6//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/usr/pkg/include//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/usr/pkg//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/opt/include//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/opt//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/sw/include//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/sw//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/opt/local/include//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/opt/local//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/usr/include/X11//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/Users/maxi/Library/Frameworks//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/Library/Developer/CommandLineTools/Library/Frameworks//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/Library/Frameworks//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/Network/Library/Frameworks//System/Library/Frameworks/OpenGL.framework/Headers"
-      - "/System/Library/Frameworks//System/Library/Frameworks/OpenGL.framework/Headers"
-    found: false
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "/usr/local/opt/qt@5"
-      ENV{PATH}:
-        - "/usr/local/bin"
-        - "/System/Cryptexes/App/usr/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/usr/sbin"
-        - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
-        - "/usr/local"
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/usr/local"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-        - "/sw"
-        - "/opt/local"
-      CMAKE_SYSTEM_INCLUDE_PATH:
-        - "/usr/include/X11"
-      CMAKE_SYSTEM_FRAMEWORK_PATH:
-        - "~/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/Library/Frameworks"
-        - "/Library/Frameworks"
-        - "/Network/Library/Frameworks"
-        - "/System/Library/Frameworks"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:50 (find_library)"
-      - "/usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:99 (_qt5gui_find_extra_libs)"
-      - "/usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake:227 (include)"
-      - "/usr/local/opt/qt@5/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake:93 (find_package)"
-      - "/usr/local/opt/qt@5/lib/cmake/Qt5/Qt5Config.cmake:28 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
-    mode: "library"
-    variable: "Qt5Gui_OpenGL_LIBRARY"
-    description: "Path to a library."
-    settings:
-      SearchFramework: "FIRST"
-      SearchAppBundle: "FIRST"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "OpenGL"
-    candidate_directories:
-      - "/usr/local/opt/qt@5/lib/"
-      - "/usr/local/opt/qt@5/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/usr/local/lib/"
-      - "/usr/local/"
-      - "/usr/lib/"
-      - "/usr/"
-      - "/opt/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
-      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
-      - "/Library/Frameworks/"
-      - "/System/Library/Frameworks/"
-    found: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework"
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "/usr/local/opt/qt@5"
-      ENV{PATH}:
-        - "/usr/local/bin"
-        - "/System/Cryptexes/App/usr/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/usr/sbin"
-        - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
-        - "/usr/local"
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/usr/local"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-        - "/sw"
-        - "/opt/local"
-      CMAKE_SYSTEM_LIBRARY_PATH:
-        - "/usr/lib/X11"
-      CMAKE_SYSTEM_FRAMEWORK_PATH:
-        - "~/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/Library/Frameworks"
-        - "/Library/Developer/CommandLineTools/Library/Frameworks"
-        - "/Library/Frameworks"
-        - "/Network/Library/Frameworks"
-        - "/System/Library/Frameworks"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:82 (find_library)"
-      - "/usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:99 (_qt5gui_find_extra_libs)"
-      - "/usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake:227 (include)"
-      - "/usr/local/opt/qt@5/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake:93 (find_package)"
-      - "/usr/local/opt/qt@5/lib/cmake/Qt5/Qt5Config.cmake:28 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
-    mode: "library"
-    variable: "Qt5Gui_OpenGL_LIBRARY_DEBUG"
-    description: "Path to a library."
-    settings:
-      SearchFramework: "FIRST"
-      SearchAppBundle: "FIRST"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "OpenGLd"
-    candidate_directories:
-      - "/usr/local/opt/qt@5/lib/"
-      - "/usr/local/opt/qt@5/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/usr/local/lib/"
-      - "/usr/local/"
-      - "/usr/lib/"
-      - "/usr/"
-      - "/opt/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
-      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
-      - "/Library/Frameworks/"
-      - "/System/Library/Frameworks/"
-      - "/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/"
-    searched_directories:
-      - "/usr/local/opt/qt@5/lib/"
-      - "/usr/local/opt/qt@5/"
-      - "/usr/local/bin/"
-      - "/System/Cryptexes/App/usr/bin/"
-      - "/usr/bin/"
-      - "/bin/"
-      - "/usr/sbin/"
-      - "/sbin/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
-      - "/usr/local/lib/"
-      - "/usr/local/"
-      - "/usr/lib/"
-      - "/usr/"
-      - "/opt/"
-      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
-      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
-      - "/Library/Frameworks/"
-      - "/System/Library/Frameworks/"
-      - "/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/"
-    found: false
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "/usr/local/opt/qt@5"
-      ENV{PATH}:
-        - "/usr/local/bin"
-        - "/System/Cryptexes/App/usr/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/usr/sbin"
-        - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
-        - "/usr/local"
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/usr/local"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-        - "/sw"
-        - "/opt/local"
-      CMAKE_SYSTEM_LIBRARY_PATH:
-        - "/usr/lib/X11"
       CMAKE_SYSTEM_FRAMEWORK_PATH:
         - "~/Library/Frameworks"
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"

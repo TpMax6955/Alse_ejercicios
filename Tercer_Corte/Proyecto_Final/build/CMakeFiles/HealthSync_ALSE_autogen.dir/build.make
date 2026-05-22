@@ -72,7 +72,7 @@ HealthSync_ALSE_autogen/timestamp: /usr/local/opt/qt@5/bin/moc
 HealthSync_ALSE_autogen/timestamp: /usr/local/opt/qt@5/bin/uic
 HealthSync_ALSE_autogen/timestamp: CMakeFiles/HealthSync_ALSE_autogen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target HealthSync_ALSE"
-	/usr/local/bin/cmake -E cmake_autogen /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/HealthSync_ALSE_autogen.dir/AutogenInfo.json ""
+	/usr/local/bin/cmake -E cmake_autogen /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/HealthSync_ALSE_autogen.dir/AutogenInfo.json Debug
 	/usr/local/bin/cmake -E touch /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/HealthSync_ALSE_autogen/timestamp
 
 CMakeFiles/HealthSync_ALSE_autogen.dir/codegen:

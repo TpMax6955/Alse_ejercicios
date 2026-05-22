@@ -13,10 +13,10 @@
 #include <QMessageBox>
 #include <QtCharts> 
 QT_CHARTS_USE_NAMESPACE
-
 #include "Usuario.h"
 #include "Calculo.h"
 #include "DatabaseManager.h" 
+
 /**
  * @class Principal
  * @brief Interfaz principal que muestra el resumen del usuario y opciones de salud.
@@ -31,7 +31,7 @@ public:
 private slots:
     void onAddMeasurementClicked(); 
     void onExportClicked();
-
+    void on_btnCerrarSesion_clicked();
 private:
     Usuario currentUser; 
     

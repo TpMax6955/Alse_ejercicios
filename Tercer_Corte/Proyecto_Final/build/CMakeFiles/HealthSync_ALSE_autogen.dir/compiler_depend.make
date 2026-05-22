@@ -876,23 +876,103 @@ HealthSync_ALSE_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacO
   /usr/local/opt/qt@5/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake \
   /usr/local/opt/qt@5/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake \
   /usr/local/opt/qt@5/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake \
+  /usr/local/share/cmake/Modules/CMakeCCompiler.cmake.in \
+  /usr/local/share/cmake/Modules/CMakeCCompilerABI.c \
   /usr/local/share/cmake/Modules/CMakeCInformation.cmake \
+  /usr/local/share/cmake/Modules/CMakeCXXCompiler.cmake.in \
+  /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp \
   /usr/local/share/cmake/Modules/CMakeCXXInformation.cmake \
   /usr/local/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
+  /usr/local/share/cmake/Modules/CMakeCompilerIdDetection.cmake \
+  /usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake \
+  /usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake \
+  /usr/local/share/cmake/Modules/CMakeDetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake \
+  /usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake \
+  /usr/local/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake \
+  /usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake \
+  /usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake \
   /usr/local/share/cmake/Modules/CMakeGenericSystem.cmake \
   /usr/local/share/cmake/Modules/CMakeInitializeConfigs.cmake \
   /usr/local/share/cmake/Modules/CMakeLanguageInformation.cmake \
   /usr/local/share/cmake/Modules/CMakeParseArguments.cmake \
+  /usr/local/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake \
+  /usr/local/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake \
+  /usr/local/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake \
+  /usr/local/share/cmake/Modules/CMakeSystem.cmake.in \
   /usr/local/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
   /usr/local/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
+  /usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake \
+  /usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake \
+  /usr/local/share/cmake/Modules/CMakeTestCompilerCommon.cmake \
+  /usr/local/share/cmake/Modules/CMakeUnixFindMake.cmake \
+  /usr/local/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
   /usr/local/share/cmake/Modules/Compiler/AppleClang-C.cmake \
   /usr/local/share/cmake/Modules/Compiler/AppleClang-CXX.cmake \
+  /usr/local/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake \
   /usr/local/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
   /usr/local/share/cmake/Modules/Compiler/Clang.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
   /usr/local/share/cmake/Modules/Compiler/GNU.cmake \
+  /usr/local/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake \
+  /usr/local/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+  /usr/local/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
   /usr/local/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake \
   /usr/local/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake \
   /usr/local/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake \
+  /usr/local/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake \
+  /usr/local/share/cmake/Modules/Internal/CMakeInspectCLinker.cmake \
+  /usr/local/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake \
+  /usr/local/share/cmake/Modules/Internal/FeatureTesting.cmake \
   /usr/local/share/cmake/Modules/Linker/AppleClang-C.cmake \
   /usr/local/share/cmake/Modules/Linker/AppleClang-CXX.cmake \
   /usr/local/share/cmake/Modules/Linker/AppleClang.cmake \
@@ -901,6 +981,7 @@ HealthSync_ALSE_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacO
   /usr/local/share/cmake/Modules/Platform/Apple-Clang-C.cmake \
   /usr/local/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake \
   /usr/local/share/cmake/Modules/Platform/Apple-Clang.cmake \
+  /usr/local/share/cmake/Modules/Platform/Darwin-Determine-CXX.cmake \
   /usr/local/share/cmake/Modules/Platform/Darwin-Initialize.cmake \
   /usr/local/share/cmake/Modules/Platform/Darwin.cmake \
   /usr/local/share/cmake/Modules/Platform/Linker/Apple-AppleClang-C.cmake \
@@ -925,19 +1006,97 @@ HealthSync_ALSE_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacO
 
 /usr/local/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake:
 
+/usr/local/share/cmake/Modules/Internal/FeatureTesting.cmake:
+
+/usr/local/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake:
+
+/usr/local/share/cmake/Modules/Internal/CMakeInspectCLinker.cmake:
+
 /usr/local/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake:
 
 /usr/local/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake:
 
+/usr/local/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake:
+
 /usr/local/share/cmake/Modules/Compiler/GNU.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake:
 
 /usr/local/share/cmake/Modules/Compiler/Clang.cmake:
 
 /usr/local/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake:
 
+/usr/local/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake:
+
 /usr/local/share/cmake/Modules/Compiler/AppleClang-CXX.cmake:
 
 /usr/local/share/cmake/Modules/Compiler/AppleClang-C.cmake:
+
+/usr/local/share/cmake/Modules/CMakeUnixFindMake.cmake:
+
+/usr/local/share/cmake/Modules/CMakeTestCompilerCommon.cmake:
+
+/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:
 
 /usr/local/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake:
 
@@ -949,9 +1108,27 @@ HealthSync_ALSE_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacO
 
 /usr/local/share/cmake/Modules/CMakeGenericSystem.cmake:
 
+/usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake:
+
+/usr/local/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake:
+
+/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:
+
+/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:
+
+/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:
+
+/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:
+
+/usr/local/share/cmake/Modules/CMakeCompilerIdDetection.cmake:
+
 /usr/local/share/cmake/Modules/CMakeCommonLanguageInclude.cmake:
 
 /usr/local/share/cmake/Modules/CMakeCXXInformation.cmake:
+
+/usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp:
+
+/usr/local/share/cmake/Modules/CMakeCCompilerABI.c:
 
 /usr/local/opt/qt@5/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake:
 
@@ -980,6 +1157,8 @@ HealthSync_ALSE_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacO
 /usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake:
 
 /usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake:
+
+/usr/local/share/cmake/Modules/Platform/Darwin-Determine-CXX.cmake:
 
 /usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QMacHeifPlugin.cmake:
 
@@ -1036,6 +1215,8 @@ HealthSync_ALSE_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacO
 /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QSpinBox:
 
 /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QPushButton:
+
+/usr/local/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake:
 
 /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QLineEdit:
 
@@ -1163,6 +1344,8 @@ HealthSync_ALSE_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacO
 
 /usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/QVector:
 
+/usr/local/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake:
+
 /usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/QString:
 
 /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/main.cpp:
@@ -1241,6 +1424,8 @@ HealthSync_ALSE_autogen/moc_predefs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_nlink_t.h:
 
+/usr/local/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_mach_port_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_key_t.h:
@@ -1248,6 +1433,8 @@ HealthSync_ALSE_autogen/moc_predefs.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_intptr_t.h:
 
 /usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qalgorithms.h:
+
+/usr/local/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_uid_t.h:
 
@@ -1323,6 +1510,8 @@ HealthSync_ALSE_autogen/moc_predefs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/libkern/i386/_OSByteOrder.h:
 
+/usr/local/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/i386/types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_ino64_t.h:
@@ -1332,6 +1521,8 @@ HealthSync_ALSE_autogen/moc_predefs.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/i386/_endian.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/wctype.h:
+
+/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/wchar.h:
 
@@ -1525,6 +1716,8 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/negation.h:
 
+/usr/local/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake:
+
 /usr/local/Cellar/qt@5/5.15.19/lib/QtGui.framework/Versions/5/Headers/qtextformat.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/maybe_const.h:
@@ -1546,6 +1739,10 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_void.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/remove_cv.h:
+
+/usr/local/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_valid_expansion.h:
 
@@ -1713,6 +1910,8 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/add_const.h:
 
+/usr/local/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__tuple/tuple_size.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__tuple/tuple_like_ext.h:
@@ -1744,6 +1943,8 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__iterator/segmented_iterator.h:
 
 /usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qobject_impl.h:
+
+/usr/local/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__string/constexpr_c_functions.h:
 
@@ -1953,6 +2154,8 @@ CMakeFiles/4.3.2/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__fwd/sstream.h:
 
+/usr/local/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__memory/uses_allocator.h:
 
 /usr/local/Cellar/qt@5/5.15.19/lib/QtGui.framework/Versions/5/Headers/qfontinfo.h:
@@ -1991,11 +2194,15 @@ CMakeFiles/4.3.2/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__charconv/traits.h:
 
+/usr/local/share/cmake/Modules/CMakeCCompiler.cmake.in:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__functional/mem_fun_ref.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__iterator/advance.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_ino_t.h:
+
+/usr/local/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/transform.h:
 
@@ -2016,6 +2223,8 @@ CMakeFiles/4.3.2/CMakeCXXCompiler.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__fwd/memory_resource.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__charconv/to_chars_result.h:
+
+/usr/local/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake:
 
 /usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qstringliteral.h:
 
@@ -2054,6 +2263,8 @@ CMakeFiles/4.3.2/CMakeCXXCompiler.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__functional/is_transparent.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/pthread/pthread.h:
+
+/usr/local/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake:
 
 /usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake:
 
@@ -2105,13 +2316,19 @@ CMakeFiles/4.3.2/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__format/indic_conjunct_break_table.h:
 
+/usr/local/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__ios/fpos.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__format/formatter_output.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_in_port_t.h:
 
+/usr/local/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__format/formatter_bool.h:
+
+/usr/local/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/binary_search.h:
 
@@ -2131,7 +2348,11 @@ CMakeFiles/4.3.2/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__format/concepts.h:
 
+/usr/local/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__format/buffer.h:
+
+/usr/local/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/result_of.h:
 
@@ -2267,6 +2488,8 @@ CMakeFiles/4.3.2/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__bit/popcount.h:
 
+/usr/local/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__bit_reference:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__compare/ordering.h:
@@ -2327,11 +2550,15 @@ CMakeFiles/4.3.2/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__fwd/istream.h:
 
+/usr/local/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/is_sorted_until.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/sift_down.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__atomic/atomic.h:
+
+/usr/local/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h:
 
@@ -2443,9 +2670,13 @@ CMakeFiles/4.3.2/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/count_if.h:
 
+/usr/local/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/ranges_transform.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_timespec.h:
+
+/usr/local/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__ranges/concepts.h:
 
@@ -2498,6 +2729,8 @@ CMakeFiles/4.3.2/CMakeCXXCompiler.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__charconv/to_chars_base_10.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_static_assert.h:
+
+/usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/libkern/_OSByteOrder.h:
 
@@ -2566,6 +2799,8 @@ CMakeFiles/4.3.2/CMakeCXXCompiler.cmake:
 /usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qtypeinfo.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/includes.h:
+
+/usr/local/share/cmake/Modules/CMakeSystem.cmake.in:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_always_bitcastable.h:
 
@@ -2693,6 +2928,8 @@ CMakeFiles/4.3.2/CMakeCCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__math/traits.h:
 
+/usr/local/share/cmake/Modules/CMakeCXXCompiler.cmake.in:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__utility/forward.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_types/_nl_item.h:
@@ -2703,7 +2940,11 @@ CMakeFiles/4.3.2/CMakeCCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_fsblkcnt_t.h:
 
+/usr/local/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__iterator/size.h:
+
+/usr/local/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/is_sorted.h:
 
@@ -2712,6 +2953,8 @@ CMakeFiles/4.3.2/CMakeCCompiler.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_specialization.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/add_pointer.h:
+
+/usr/local/share/cmake/Modules/CMakeDetermineCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/equal.h:
 

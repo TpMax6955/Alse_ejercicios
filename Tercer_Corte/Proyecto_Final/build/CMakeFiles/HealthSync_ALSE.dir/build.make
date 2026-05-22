@@ -73,7 +73,7 @@ HealthSync_ALSE_autogen/timestamp: /usr/local/opt/qt@5/bin/moc
 HealthSync_ALSE_autogen/timestamp: /usr/local/opt/qt@5/bin/uic
 HealthSync_ALSE_autogen/timestamp: CMakeFiles/HealthSync_ALSE.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target HealthSync_ALSE"
-	/usr/local/bin/cmake -E cmake_autogen /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/HealthSync_ALSE_autogen.dir/AutogenInfo.json ""
+	/usr/local/bin/cmake -E cmake_autogen /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles/HealthSync_ALSE_autogen.dir/AutogenInfo.json Debug
 	/usr/local/bin/cmake -E touch /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/HealthSync_ALSE_autogen/timestamp
 
 CMakeFiles/HealthSync_ALSE.dir/codegen:
@@ -83,99 +83,99 @@ CMakeFiles/HealthSync_ALSE.dir/HealthSync_ALSE_autogen/mocs_compilation.cpp.o: C
 CMakeFiles/HealthSync_ALSE.dir/HealthSync_ALSE_autogen/mocs_compilation.cpp.o: HealthSync_ALSE_autogen/mocs_compilation.cpp
 CMakeFiles/HealthSync_ALSE.dir/HealthSync_ALSE_autogen/mocs_compilation.cpp.o: CMakeFiles/HealthSync_ALSE.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HealthSync_ALSE.dir/HealthSync_ALSE_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HealthSync_ALSE.dir/HealthSync_ALSE_autogen/mocs_compilation.cpp.o -MF CMakeFiles/HealthSync_ALSE.dir/HealthSync_ALSE_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/HealthSync_ALSE.dir/HealthSync_ALSE_autogen/mocs_compilation.cpp.o -c /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/HealthSync_ALSE_autogen/mocs_compilation.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HealthSync_ALSE.dir/HealthSync_ALSE_autogen/mocs_compilation.cpp.o -MF CMakeFiles/HealthSync_ALSE.dir/HealthSync_ALSE_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/HealthSync_ALSE.dir/HealthSync_ALSE_autogen/mocs_compilation.cpp.o -c /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/HealthSync_ALSE_autogen/mocs_compilation.cpp
 
 CMakeFiles/HealthSync_ALSE.dir/HealthSync_ALSE_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HealthSync_ALSE.dir/HealthSync_ALSE_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/HealthSync_ALSE_autogen/mocs_compilation.cpp > CMakeFiles/HealthSync_ALSE.dir/HealthSync_ALSE_autogen/mocs_compilation.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/HealthSync_ALSE_autogen/mocs_compilation.cpp > CMakeFiles/HealthSync_ALSE.dir/HealthSync_ALSE_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/HealthSync_ALSE.dir/HealthSync_ALSE_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HealthSync_ALSE.dir/HealthSync_ALSE_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/HealthSync_ALSE_autogen/mocs_compilation.cpp -o CMakeFiles/HealthSync_ALSE.dir/HealthSync_ALSE_autogen/mocs_compilation.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/HealthSync_ALSE_autogen/mocs_compilation.cpp -o CMakeFiles/HealthSync_ALSE.dir/HealthSync_ALSE_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/HealthSync_ALSE.dir/src/main.cpp.o: CMakeFiles/HealthSync_ALSE.dir/flags.make
 CMakeFiles/HealthSync_ALSE.dir/src/main.cpp.o: /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/main.cpp
 CMakeFiles/HealthSync_ALSE.dir/src/main.cpp.o: CMakeFiles/HealthSync_ALSE.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/HealthSync_ALSE.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HealthSync_ALSE.dir/src/main.cpp.o -MF CMakeFiles/HealthSync_ALSE.dir/src/main.cpp.o.d -o CMakeFiles/HealthSync_ALSE.dir/src/main.cpp.o -c /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/main.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HealthSync_ALSE.dir/src/main.cpp.o -MF CMakeFiles/HealthSync_ALSE.dir/src/main.cpp.o.d -o CMakeFiles/HealthSync_ALSE.dir/src/main.cpp.o -c /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/main.cpp
 
 CMakeFiles/HealthSync_ALSE.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HealthSync_ALSE.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/main.cpp > CMakeFiles/HealthSync_ALSE.dir/src/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/main.cpp > CMakeFiles/HealthSync_ALSE.dir/src/main.cpp.i
 
 CMakeFiles/HealthSync_ALSE.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HealthSync_ALSE.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/main.cpp -o CMakeFiles/HealthSync_ALSE.dir/src/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/main.cpp -o CMakeFiles/HealthSync_ALSE.dir/src/main.cpp.s
 
 CMakeFiles/HealthSync_ALSE.dir/src/DatabaseManager.cpp.o: CMakeFiles/HealthSync_ALSE.dir/flags.make
 CMakeFiles/HealthSync_ALSE.dir/src/DatabaseManager.cpp.o: /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/DatabaseManager.cpp
 CMakeFiles/HealthSync_ALSE.dir/src/DatabaseManager.cpp.o: CMakeFiles/HealthSync_ALSE.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/HealthSync_ALSE.dir/src/DatabaseManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HealthSync_ALSE.dir/src/DatabaseManager.cpp.o -MF CMakeFiles/HealthSync_ALSE.dir/src/DatabaseManager.cpp.o.d -o CMakeFiles/HealthSync_ALSE.dir/src/DatabaseManager.cpp.o -c /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/DatabaseManager.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HealthSync_ALSE.dir/src/DatabaseManager.cpp.o -MF CMakeFiles/HealthSync_ALSE.dir/src/DatabaseManager.cpp.o.d -o CMakeFiles/HealthSync_ALSE.dir/src/DatabaseManager.cpp.o -c /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/DatabaseManager.cpp
 
 CMakeFiles/HealthSync_ALSE.dir/src/DatabaseManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HealthSync_ALSE.dir/src/DatabaseManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/DatabaseManager.cpp > CMakeFiles/HealthSync_ALSE.dir/src/DatabaseManager.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/DatabaseManager.cpp > CMakeFiles/HealthSync_ALSE.dir/src/DatabaseManager.cpp.i
 
 CMakeFiles/HealthSync_ALSE.dir/src/DatabaseManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HealthSync_ALSE.dir/src/DatabaseManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/DatabaseManager.cpp -o CMakeFiles/HealthSync_ALSE.dir/src/DatabaseManager.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/DatabaseManager.cpp -o CMakeFiles/HealthSync_ALSE.dir/src/DatabaseManager.cpp.s
 
 CMakeFiles/HealthSync_ALSE.dir/src/Login.cpp.o: CMakeFiles/HealthSync_ALSE.dir/flags.make
 CMakeFiles/HealthSync_ALSE.dir/src/Login.cpp.o: /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Login.cpp
 CMakeFiles/HealthSync_ALSE.dir/src/Login.cpp.o: CMakeFiles/HealthSync_ALSE.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/HealthSync_ALSE.dir/src/Login.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HealthSync_ALSE.dir/src/Login.cpp.o -MF CMakeFiles/HealthSync_ALSE.dir/src/Login.cpp.o.d -o CMakeFiles/HealthSync_ALSE.dir/src/Login.cpp.o -c /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Login.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HealthSync_ALSE.dir/src/Login.cpp.o -MF CMakeFiles/HealthSync_ALSE.dir/src/Login.cpp.o.d -o CMakeFiles/HealthSync_ALSE.dir/src/Login.cpp.o -c /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Login.cpp
 
 CMakeFiles/HealthSync_ALSE.dir/src/Login.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HealthSync_ALSE.dir/src/Login.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Login.cpp > CMakeFiles/HealthSync_ALSE.dir/src/Login.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Login.cpp > CMakeFiles/HealthSync_ALSE.dir/src/Login.cpp.i
 
 CMakeFiles/HealthSync_ALSE.dir/src/Login.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HealthSync_ALSE.dir/src/Login.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Login.cpp -o CMakeFiles/HealthSync_ALSE.dir/src/Login.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Login.cpp -o CMakeFiles/HealthSync_ALSE.dir/src/Login.cpp.s
 
 CMakeFiles/HealthSync_ALSE.dir/src/Usuario.cpp.o: CMakeFiles/HealthSync_ALSE.dir/flags.make
 CMakeFiles/HealthSync_ALSE.dir/src/Usuario.cpp.o: /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Usuario.cpp
 CMakeFiles/HealthSync_ALSE.dir/src/Usuario.cpp.o: CMakeFiles/HealthSync_ALSE.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/HealthSync_ALSE.dir/src/Usuario.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HealthSync_ALSE.dir/src/Usuario.cpp.o -MF CMakeFiles/HealthSync_ALSE.dir/src/Usuario.cpp.o.d -o CMakeFiles/HealthSync_ALSE.dir/src/Usuario.cpp.o -c /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Usuario.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HealthSync_ALSE.dir/src/Usuario.cpp.o -MF CMakeFiles/HealthSync_ALSE.dir/src/Usuario.cpp.o.d -o CMakeFiles/HealthSync_ALSE.dir/src/Usuario.cpp.o -c /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Usuario.cpp
 
 CMakeFiles/HealthSync_ALSE.dir/src/Usuario.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HealthSync_ALSE.dir/src/Usuario.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Usuario.cpp > CMakeFiles/HealthSync_ALSE.dir/src/Usuario.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Usuario.cpp > CMakeFiles/HealthSync_ALSE.dir/src/Usuario.cpp.i
 
 CMakeFiles/HealthSync_ALSE.dir/src/Usuario.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HealthSync_ALSE.dir/src/Usuario.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Usuario.cpp -o CMakeFiles/HealthSync_ALSE.dir/src/Usuario.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Usuario.cpp -o CMakeFiles/HealthSync_ALSE.dir/src/Usuario.cpp.s
 
 CMakeFiles/HealthSync_ALSE.dir/src/Principal.cpp.o: CMakeFiles/HealthSync_ALSE.dir/flags.make
 CMakeFiles/HealthSync_ALSE.dir/src/Principal.cpp.o: /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Principal.cpp
 CMakeFiles/HealthSync_ALSE.dir/src/Principal.cpp.o: CMakeFiles/HealthSync_ALSE.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/HealthSync_ALSE.dir/src/Principal.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HealthSync_ALSE.dir/src/Principal.cpp.o -MF CMakeFiles/HealthSync_ALSE.dir/src/Principal.cpp.o.d -o CMakeFiles/HealthSync_ALSE.dir/src/Principal.cpp.o -c /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Principal.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HealthSync_ALSE.dir/src/Principal.cpp.o -MF CMakeFiles/HealthSync_ALSE.dir/src/Principal.cpp.o.d -o CMakeFiles/HealthSync_ALSE.dir/src/Principal.cpp.o -c /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Principal.cpp
 
 CMakeFiles/HealthSync_ALSE.dir/src/Principal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HealthSync_ALSE.dir/src/Principal.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Principal.cpp > CMakeFiles/HealthSync_ALSE.dir/src/Principal.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Principal.cpp > CMakeFiles/HealthSync_ALSE.dir/src/Principal.cpp.i
 
 CMakeFiles/HealthSync_ALSE.dir/src/Principal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HealthSync_ALSE.dir/src/Principal.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Principal.cpp -o CMakeFiles/HealthSync_ALSE.dir/src/Principal.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Principal.cpp -o CMakeFiles/HealthSync_ALSE.dir/src/Principal.cpp.s
 
 CMakeFiles/HealthSync_ALSE.dir/src/Calculo.cpp.o: CMakeFiles/HealthSync_ALSE.dir/flags.make
 CMakeFiles/HealthSync_ALSE.dir/src/Calculo.cpp.o: /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Calculo.cpp
 CMakeFiles/HealthSync_ALSE.dir/src/Calculo.cpp.o: CMakeFiles/HealthSync_ALSE.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/HealthSync_ALSE.dir/src/Calculo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HealthSync_ALSE.dir/src/Calculo.cpp.o -MF CMakeFiles/HealthSync_ALSE.dir/src/Calculo.cpp.o.d -o CMakeFiles/HealthSync_ALSE.dir/src/Calculo.cpp.o -c /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Calculo.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HealthSync_ALSE.dir/src/Calculo.cpp.o -MF CMakeFiles/HealthSync_ALSE.dir/src/Calculo.cpp.o.d -o CMakeFiles/HealthSync_ALSE.dir/src/Calculo.cpp.o -c /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Calculo.cpp
 
 CMakeFiles/HealthSync_ALSE.dir/src/Calculo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HealthSync_ALSE.dir/src/Calculo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Calculo.cpp > CMakeFiles/HealthSync_ALSE.dir/src/Calculo.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Calculo.cpp > CMakeFiles/HealthSync_ALSE.dir/src/Calculo.cpp.i
 
 CMakeFiles/HealthSync_ALSE.dir/src/Calculo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HealthSync_ALSE.dir/src/Calculo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Calculo.cpp -o CMakeFiles/HealthSync_ALSE.dir/src/Calculo.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Calculo.cpp -o CMakeFiles/HealthSync_ALSE.dir/src/Calculo.cpp.s
 
 # Object files for target HealthSync_ALSE
 HealthSync_ALSE_OBJECTS = \

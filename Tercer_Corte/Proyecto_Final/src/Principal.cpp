@@ -2,10 +2,13 @@
 #include <QString>
 #include <QDateTime>
 #include <QFileDialog>
+#include "Login.h"
+#include <QMessageBox>
 
 Principal::Principal(Usuario user, QWidget *parent) : QWidget(parent), currentUser(user) {
     setupUI();
     connect(addMeasurementButton, &QPushButton::clicked, this, &Principal::onAddMeasurementClicked);
+    connect(logoutButton, &QPushButton::clicked, this, &Principal::on_btnCerrarSesion_clicked);
 }
 
 Principal::~Principal() {
@@ -80,6 +83,22 @@ void Principal::onAddMeasurementClicked() {
         } else {
             QMessageBox::warning(this, "Error", "No se pudo guardar la medición.");
         }
+    }
+}
+
+void Principal::on_btnCerrarSesion_clicked() {
+    QMessageBox::StandardButton respuesta;
+    respuesta = QMessageBox::question(this, "Cerrar Sesión", 
+                                      "¿Estás seguro de que deseas cerrar sesión?",
+                                      QMessageBox::Yes | QMessageBox::No);
+
+    if (respuesta == QMessageBox::Yes) {
+        this->hide();
+
+        Login *ventanaLogin = new Login();
+        ventanaLogin->show();
+
+        this->deleteLater();
     }
 }
 

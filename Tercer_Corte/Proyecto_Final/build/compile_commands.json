@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build",
+  "command": "/usr/bin/clang++ -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/HealthSync_ALSE_autogen/include -I/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include -iframework /usr/local/opt/qt@5/lib -isystem /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers -isystem /usr/local/opt/qt@5/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /usr/local/opt/qt@5/lib/QtCore.framework/Headers -isystem /usr/local/opt/qt@5/./mkspecs/macx-clang -isystem /usr/local/opt/qt@5/lib/QtSql.framework/Headers -isystem /usr/local/opt/qt@5/lib/QtCharts.framework/Headers -g -std=gnu++17 -fPIC -o CMakeFiles/HealthSync_ALSE.dir/HealthSync_ALSE_autogen/mocs_compilation.cpp.o -c /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/HealthSync_ALSE_autogen/mocs_compilation.cpp",
+  "file": "/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/HealthSync_ALSE_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/HealthSync_ALSE.dir/HealthSync_ALSE_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build",
+  "command": "/usr/bin/clang++ -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/HealthSync_ALSE_autogen/include -I/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include -iframework /usr/local/opt/qt@5/lib -isystem /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers -isystem /usr/local/opt/qt@5/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /usr/local/opt/qt@5/lib/QtCore.framework/Headers -isystem /usr/local/opt/qt@5/./mkspecs/macx-clang -isystem /usr/local/opt/qt@5/lib/QtSql.framework/Headers -isystem /usr/local/opt/qt@5/lib/QtCharts.framework/Headers -g -std=gnu++17 -fPIC -o CMakeFiles/HealthSync_ALSE.dir/src/main.cpp.o -c /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/main.cpp",
+  "file": "/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/main.cpp",
+  "output": "CMakeFiles/HealthSync_ALSE.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build",
+  "command": "/usr/bin/clang++ -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/HealthSync_ALSE_autogen/include -I/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include -iframework /usr/local/opt/qt@5/lib -isystem /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers -isystem /usr/local/opt/qt@5/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /usr/local/opt/qt@5/lib/QtCore.framework/Headers -isystem /usr/local/opt/qt@5/./mkspecs/macx-clang -isystem /usr/local/opt/qt@5/lib/QtSql.framework/Headers -isystem /usr/local/opt/qt@5/lib/QtCharts.framework/Headers -g -std=gnu++17 -fPIC -o CMakeFiles/HealthSync_ALSE.dir/src/DatabaseManager.cpp.o -c /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/DatabaseManager.cpp",
+  "file": "/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/DatabaseManager.cpp",
+  "output": "CMakeFiles/HealthSync_ALSE.dir/src/DatabaseManager.cpp.o"
+},
+{
+  "directory": "/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build",
+  "command": "/usr/bin/clang++ -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/HealthSync_ALSE_autogen/include -I/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include -iframework /usr/local/opt/qt@5/lib -isystem /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers -isystem /usr/local/opt/qt@5/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /usr/local/opt/qt@5/lib/QtCore.framework/Headers -isystem /usr/local/opt/qt@5/./mkspecs/macx-clang -isystem /usr/local/opt/qt@5/lib/QtSql.framework/Headers -isystem /usr/local/opt/qt@5/lib/QtCharts.framework/Headers -g -std=gnu++17 -fPIC -o CMakeFiles/HealthSync_ALSE.dir/src/Login.cpp.o -c /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Login.cpp",
+  "file": "/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Login.cpp",
+  "output": "CMakeFiles/HealthSync_ALSE.dir/src/Login.cpp.o"
+},
+{
+  "directory": "/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build",
+  "command": "/usr/bin/clang++ -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/HealthSync_ALSE_autogen/include -I/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include -iframework /usr/local/opt/qt@5/lib -isystem /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers -isystem /usr/local/opt/qt@5/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /usr/local/opt/qt@5/lib/QtCore.framework/Headers -isystem /usr/local/opt/qt@5/./mkspecs/macx-clang -isystem /usr/local/opt/qt@5/lib/QtSql.framework/Headers -isystem /usr/local/opt/qt@5/lib/QtCharts.framework/Headers -g -std=gnu++17 -fPIC -o CMakeFiles/HealthSync_ALSE.dir/src/Usuario.cpp.o -c /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Usuario.cpp",
+  "file": "/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Usuario.cpp",
+  "output": "CMakeFiles/HealthSync_ALSE.dir/src/Usuario.cpp.o"
+},
+{
+  "directory": "/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build",
+  "command": "/usr/bin/clang++ -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/HealthSync_ALSE_autogen/include -I/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include -iframework /usr/local/opt/qt@5/lib -isystem /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers -isystem /usr/local/opt/qt@5/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /usr/local/opt/qt@5/lib/QtCore.framework/Headers -isystem /usr/local/opt/qt@5/./mkspecs/macx-clang -isystem /usr/local/opt/qt@5/lib/QtSql.framework/Headers -isystem /usr/local/opt/qt@5/lib/QtCharts.framework/Headers -g -std=gnu++17 -fPIC -o CMakeFiles/HealthSync_ALSE.dir/src/Principal.cpp.o -c /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Principal.cpp",
+  "file": "/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Principal.cpp",
+  "output": "CMakeFiles/HealthSync_ALSE.dir/src/Principal.cpp.o"
+},
+{
+  "directory": "/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build",
+  "command": "/usr/bin/clang++ -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -I/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/build/HealthSync_ALSE_autogen/include -I/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include -iframework /usr/local/opt/qt@5/lib -isystem /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers -isystem /usr/local/opt/qt@5/lib/QtGui.framework/Headers -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers -isystem /usr/local/opt/qt@5/lib/QtCore.framework/Headers -isystem /usr/local/opt/qt@5/./mkspecs/macx-clang -isystem /usr/local/opt/qt@5/lib/QtSql.framework/Headers -isystem /usr/local/opt/qt@5/lib/QtCharts.framework/Headers -g -std=gnu++17 -fPIC -o CMakeFiles/HealthSync_ALSE.dir/src/Calculo.cpp.o -c /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Calculo.cpp",
+  "file": "/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/src/Calculo.cpp",
+  "output": "CMakeFiles/HealthSync_ALSE.dir/src/Calculo.cpp.o"
+}
+]

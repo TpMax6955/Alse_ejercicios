@@ -876,23 +876,103 @@ HealthSync_ALSE_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacO
   /usr/local/opt/qt@5/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake \
   /usr/local/opt/qt@5/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake \
   /usr/local/opt/qt@5/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake \
+  /usr/local/share/cmake/Modules/CMakeCCompiler.cmake.in \
+  /usr/local/share/cmake/Modules/CMakeCCompilerABI.c \
   /usr/local/share/cmake/Modules/CMakeCInformation.cmake \
+  /usr/local/share/cmake/Modules/CMakeCXXCompiler.cmake.in \
+  /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp \
   /usr/local/share/cmake/Modules/CMakeCXXInformation.cmake \
   /usr/local/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
+  /usr/local/share/cmake/Modules/CMakeCompilerIdDetection.cmake \
+  /usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake \
+  /usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake \
+  /usr/local/share/cmake/Modules/CMakeDetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake \
+  /usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake \
+  /usr/local/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake \
+  /usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake \
+  /usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake \
   /usr/local/share/cmake/Modules/CMakeGenericSystem.cmake \
   /usr/local/share/cmake/Modules/CMakeInitializeConfigs.cmake \
   /usr/local/share/cmake/Modules/CMakeLanguageInformation.cmake \
   /usr/local/share/cmake/Modules/CMakeParseArguments.cmake \
+  /usr/local/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake \
+  /usr/local/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake \
+  /usr/local/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake \
+  /usr/local/share/cmake/Modules/CMakeSystem.cmake.in \
   /usr/local/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
   /usr/local/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
+  /usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake \
+  /usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake \
+  /usr/local/share/cmake/Modules/CMakeTestCompilerCommon.cmake \
+  /usr/local/share/cmake/Modules/CMakeUnixFindMake.cmake \
+  /usr/local/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
   /usr/local/share/cmake/Modules/Compiler/AppleClang-C.cmake \
   /usr/local/share/cmake/Modules/Compiler/AppleClang-CXX.cmake \
+  /usr/local/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake \
   /usr/local/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
   /usr/local/share/cmake/Modules/Compiler/Clang.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
   /usr/local/share/cmake/Modules/Compiler/GNU.cmake \
+  /usr/local/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake \
+  /usr/local/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+  /usr/local/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake \
+  /usr/local/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
   /usr/local/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake \
   /usr/local/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake \
   /usr/local/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake \
+  /usr/local/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake \
+  /usr/local/share/cmake/Modules/Internal/CMakeInspectCLinker.cmake \
+  /usr/local/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake \
+  /usr/local/share/cmake/Modules/Internal/FeatureTesting.cmake \
   /usr/local/share/cmake/Modules/Linker/AppleClang-C.cmake \
   /usr/local/share/cmake/Modules/Linker/AppleClang-CXX.cmake \
   /usr/local/share/cmake/Modules/Linker/AppleClang.cmake \
@@ -901,6 +981,7 @@ HealthSync_ALSE_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacO
   /usr/local/share/cmake/Modules/Platform/Apple-Clang-C.cmake \
   /usr/local/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake \
   /usr/local/share/cmake/Modules/Platform/Apple-Clang.cmake \
+  /usr/local/share/cmake/Modules/Platform/Darwin-Determine-CXX.cmake \
   /usr/local/share/cmake/Modules/Platform/Darwin-Initialize.cmake \
   /usr/local/share/cmake/Modules/Platform/Darwin.cmake \
   /usr/local/share/cmake/Modules/Platform/Linker/Apple-AppleClang-C.cmake \
@@ -6564,6 +6645,7 @@ CMakeFiles/HealthSync_ALSE.dir/src/Principal.cpp.o: /Users/maxi/Desktop/Alse_eje
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
   /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Calculo.h \
   /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/DatabaseManager.h \
+  /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Login.h \
   /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Principal.h \
   /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Usuario.h \
   /usr/local/include/QtCharts/QAbstractAxis \
@@ -7148,8 +7230,10 @@ CMakeFiles/HealthSync_ALSE.dir/src/Principal.cpp.o: /Users/maxi/Desktop/Alse_eje
   /usr/local/opt/qt@5/lib/QtSql.framework/Headers/qsqldatabase.h \
   /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/QDialog \
   /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/QDoubleSpinBox \
+  /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/QFileDialog \
   /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/QHBoxLayout \
   /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/QLabel \
+  /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/QLineEdit \
   /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/QMessageBox \
   /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/QPushButton \
   /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/QSpinBox \
@@ -7157,7 +7241,9 @@ CMakeFiles/HealthSync_ALSE.dir/src/Principal.cpp.o: /Users/maxi/Desktop/Alse_eje
   /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/QWidget \
   /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/qboxlayout.h \
   /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/qdialog.h \
+  /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/qfiledialog.h \
   /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/qlabel.h \
+  /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/qlineedit.h \
   /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/qmessagebox.h \
   /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/qpushbutton.h \
   /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/qspinbox.h \
@@ -8924,6 +9010,10 @@ CMakeFiles/HealthSync_ALSE.dir/src/main.cpp.o: /Users/maxi/Desktop/Alse_ejercici
 
 /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/qapplication.h:
 
+/usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/qfiledialog.h:
+
+/usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/QFileDialog:
+
 /usr/local/opt/qt@5/lib/QtCore.framework/Headers/QDateTime:
 
 /usr/local/opt/qt@5/lib/QtSql.framework/Headers/qsqlerror.h:
@@ -9146,8 +9236,6 @@ CMakeFiles/HealthSync_ALSE.dir/src/main.cpp.o: /Users/maxi/Desktop/Alse_ejercici
 
 /usr/local/include/QtWidgets/qabstractspinbox.h:
 
-/usr/local/include/QtWidgets/qabstractslider.h:
-
 /usr/local/include/QtWidgets/qabstractscrollarea.h:
 
 /usr/local/include/QtWidgets/qabstractitemview.h:
@@ -9225,8 +9313,6 @@ CMakeFiles/HealthSync_ALSE.dir/src/main.cpp.o: /Users/maxi/Desktop/Alse_ejercici
 /usr/local/include/QtGui/qrasterwindow.h:
 
 /usr/local/include/QtGui/qpolygon.h:
-
-/usr/local/include/QtGui/qpixmapcache.h:
 
 /usr/local/include/QtGui/qpictureformatplugin.h:
 
@@ -9528,8 +9614,6 @@ CMakeFiles/HealthSync_ALSE.dir/src/main.cpp.o: /Users/maxi/Desktop/Alse_ejercici
 
 /usr/local/include/QtCore/qdatastream.h:
 
-/usr/local/include/QtCore/qcryptographichash.h:
-
 /usr/local/include/QtCore/qcoreevent.h:
 
 /usr/local/include/QtCore/qcoreapplication.h:
@@ -9583,10 +9667,6 @@ CMakeFiles/HealthSync_ALSE.dir/src/main.cpp.o: /Users/maxi/Desktop/Alse_ejercici
 /usr/local/include/QtCore/qabstractproxymodel.h:
 
 /usr/local/include/QtCore/qabstractnativeeventfilter.h:
-
-/usr/local/include/QtCore/qcontainertools_impl.h:
-
-/usr/local/include/QtCore/qabstractitemmodel.h:
 
 /usr/local/include/QtWidgets/QLayout:
 
@@ -9645,8 +9725,6 @@ CMakeFiles/HealthSync_ALSE.dir/src/main.cpp.o: /Users/maxi/Desktop/Alse_ejercici
 /usr/local/include/QtCharts/QXYSeries:
 
 /usr/local/include/QtCharts/QXYModelMapper:
-
-/usr/local/include/QtCharts/QValueAxis:
 
 /usr/local/include/QtCharts/QPieSlice:
 
@@ -9886,8 +9964,6 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/i386/_mcontext.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h:
-
 /usr/local/include/QtCharts/qbarmodelmapper.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h:
@@ -9926,69 +10002,55 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/queue:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/generate_n.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/numeric:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_int32_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/new:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/optional:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/i386/_limits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/mutex:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/prev_permutation.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/memory:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/math.h:
-
-/usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qbytearray.h:
-
-/usr/local/Cellar/qt@5/5.15.19/lib/QtGui.framework/Versions/5/Headers/qmatrix.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/map:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/locale.h:
 
+/usr/local/include/QtCore/qthreadstorage.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/locale:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/list:
 
-/usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/qwidget.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/limits:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__tree:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iterator:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:
+
+/usr/local/include/QtWidgets/qabstractbutton.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_key_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/ctype.h:
-
-/usr/local/Cellar/qt@5/5.15.19/lib/QtGui.framework/Versions/5/Headers/qicon.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/future:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/format:
+
+/usr/local/include/QtCore/qstdlibdetection.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/execution:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/exception:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/errno.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/deque:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cwchar:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__format/parser_std_format_spec.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ctype.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cwctype:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ctime:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/unique.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__tuple/sfinae_helpers.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdio:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdlib:
 
 /usr/local/include/QtCore/qabstractanimation.h:
 
@@ -10000,37 +10062,77 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/compare:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/void_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cmath:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/clocale:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/climits:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bit:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/array:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__verbose_abort:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__variant/monostate.h:
+
+/usr/local/include/QtGui/QPen:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/swap.h:
+
+/usr/local/opt/qt@5/lib/QtCharts.framework/Headers/qabstractaxis.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/resource.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/rel_ops.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/private_constructor_tag.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_timeval.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/piecewise_construct.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/signal.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/pair.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/move.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/is_valid_range.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/is_pointer_in_range.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/integer_sequence.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/in_place.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/exception_guard.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__iterator/istreambuf_iterator.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/empty.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/declval.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/convert_to_integral.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/auto_cast.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/as_const.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cmath:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/void_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/unwrap_ref.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/underlying_type.h:
+
+/usr/local/include/QtCore/qloggingcategory.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/type_list.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/type_identity.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_pointer.h:
 
@@ -10071,8 +10173,6 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/inverse_trigonometric_functions.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_lexicographically_comparable.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_assignable.h:
 
 /usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake:
 
@@ -10194,14 +10294,6 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/view_interface.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int16_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/ranges_copy.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__concepts/predicate.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/enable_view.h:
-
 /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QMessageBox:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_real_distribution.h:
@@ -10296,23 +10388,15 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/iota.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inner_product.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/signal.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/libkern/i386/_OSByteOrder.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/gcd_lcm.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/comp_ref_type.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/exclusive_scan.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/accumulate.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/type_identity.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__node_handle:
 
@@ -10321,12 +10405,6 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory_resource/polymorphic_allocator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/voidify.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/future:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/fill_n.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/strip_signature.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/appleapiopts.h:
 
@@ -10370,6 +10448,8 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/merge.h:
 
+/usr/local/share/cmake/Modules/Platform/Darwin-Determine-CXX.cmake:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/is_valid.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/partition_point.h:
@@ -10377,18 +10457,6 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/builtin_new_allocator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocator_destructor.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/random_device.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocation_guard.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__node_handle:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_cv.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/perfect_forward.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/align.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_cvref.h:
 
@@ -10430,14 +10498,6 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/exponential_functions.h:
 
-/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Principal.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_sorted_until.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/error_functions.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:
-
 /usr/local/include/QtCore/QPointF:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/abs.h:
@@ -10473,6 +10533,8 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/ostream_iterator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_pointer.h:
+
+/usr/local/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/move_sentinel.h:
 
@@ -10518,14 +10580,6 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__hash_table:
 
-/usr/local/include/QtCore/qsystemsemaphore.h:
-
-/usr/local/Cellar/qt@5/5.15.19/lib/QtGui.framework/Versions/5/Headers/qpixmap.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/streambuf.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/optional:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/sstream.h:
@@ -10554,14 +10608,6 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/deque.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/version:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/random:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/AvailabilityVersions.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/no_destroy.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/array.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/weak_result_type.h:
@@ -10572,6 +10618,8 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp:
 
 /usr/local/opt/qt@5/lib/QtCharts.framework/Headers/qhcandlestickmodelmapper.h:
 
+/usr/local/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_negate.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h:
@@ -10579,8 +10627,6 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp:
 /usr/local/include/QtGui/QVector3D:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/reference_wrapper.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/ranges_operations.h:
 
 /usr/local/include/QtCore/qbytearray.h:
 
@@ -10592,11 +10638,13 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/make_const_lvalue_ref.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/align.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/perfect_forward.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/bounded_iter.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/not_fn.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/mem_fn.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_signed_integer.h:
 
@@ -10700,8 +10748,6 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/compare_three_way_result.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/limits:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/inout_ptr.h:
 
 /usr/local/include/QtCore/qvariantanimation.h:
@@ -10714,12 +10760,6 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/common_comparison_category.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__cstddef/ptrdiff_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_xlocale.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/forward_like.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int32_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__random/log2.h:
@@ -10729,6 +10769,8 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp:
 /usr/local/opt/qt@5/lib/QtCharts.framework/Headers/qboxplotseries.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/steady_clock.h:
+
+/usr/local/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/duration.h:
 
@@ -10758,8 +10800,6 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/invert_if.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/countr.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/countl.h:
 
 /usr/local/include/QtWidgets/qcommonstyle.h:
@@ -10782,13 +10822,13 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/hash.h:
 
+/usr/local/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/cxx_atomic_impl.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/check_memory_order.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_init.h:
+
+/usr/local/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_base.h:
 
@@ -10799,14 +10839,6 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__assert:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/upper_bound.h:
-
-/usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/QLabel:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/simd_utils.h:
-
-/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QSpinBox:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional:
 
 /usr/local/include/QtWidgets/qframe.h:
 
@@ -10821,6 +10853,8 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/stable_sort.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/knuth_b.h:
+
+/usr/local/share/cmake/Modules/CMakeCCompiler.cmake.in:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/stable_partition.h:
 
@@ -10874,12 +10908,6 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_extent.h:
-
-/usr/local/include/QtCore/qbytearraymatcher.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_upper_bound.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__iterator/concepts.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_transform.h:
@@ -10922,8 +10950,6 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partition.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno:
-
 /usr/local/Cellar/qt@5/5.15.19/lib/QtGui.framework/Versions/5/Headers/qtgui-config.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partial_sort_copy.h:
@@ -10964,6 +10990,12 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/iter_swap.h:
 
+/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Principal.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/error_functions.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_sorted_until.h:
+
 /usr/local/include/QtWidgets/qrubberband.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_partitioned.h:
@@ -10971,8 +11003,6 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp:
 /usr/local/opt/qt@5/lib/QtCharts.framework/Headers/qhbarmodelmapper.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/inplace_merge.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__variant/monostate.h:
 
 /usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/qspinbox.h:
 
@@ -11023,8 +11053,6 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_sync.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/is_pointer_in_range.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/common_type.h:
 
@@ -11084,8 +11112,6 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_wctype.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_wchar.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_wctrans_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h:
@@ -11093,8 +11119,6 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint8_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint64_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdlib:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_nullptr_t.h:
 
@@ -11120,15 +11144,11 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_locale_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/move.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_destructible.h:
 
 /usr/local/include/QtCore/qtypeinfo.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_strings.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/tuple_types.h:
 
@@ -11151,6 +11171,8 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Calculo.cpp:
 /usr/local/opt/qt@5/lib/QtCore.framework/Headers/qfile.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_volatile.h:
+
+/usr/local/share/cmake/Modules/CMakeSystem.cmake.in:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/search_n.h:
 
@@ -11208,6 +11230,8 @@ HealthSync_ALSE_autogen/mocs_compilation.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__configuration/compiler.h:
 
+/usr/local/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake:
+
 /usr/local/share/cmake/Modules/Platform/Linker/Apple-AppleClang-CXX.cmake:
 
 /usr/local/share/cmake/Modules/Platform/Linker/Apple-AppleClang-C.cmake:
@@ -11222,6 +11246,30 @@ HealthSync_ALSE_autogen/mocs_compilation.cpp:
 
 /usr/local/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_wchar.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_types/_nl_item.h:
+
+/usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qatomic.h:
+
+/usr/local/share/cmake/Modules/Internal/FeatureTesting.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int16_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/ranges_copy.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__concepts/predicate.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/enable_view.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_u_int8_t.h:
+
+/usr/local/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake:
+
+/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qabstractbutton.h:
+
+/usr/local/share/cmake/Modules/Internal/CMakeInspectCLinker.cmake:
+
 /usr/local/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake:
 
 /usr/local/include/QtGui/qquaternion.h:
@@ -11230,13 +11278,147 @@ HealthSync_ALSE_autogen/mocs_compilation.cpp:
 
 /usr/local/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake:
 
+/usr/local/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_strings.h:
+
+/usr/local/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake:
+
+/usr/local/include/QtWidgets/qgraphicseffect.h:
+
+/usr/local/include/QtCore/qitemselectionmodel.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_compound.h:
+
+/usr/local/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__compare/ordering.h:
+
+/usr/local/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cwchar:
+
+/usr/local/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_assignable.h:
+
+/usr/local/include/QtCharts/QValueAxis:
+
+/usr/local/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake:
+
+/usr/local/include/QtCore/QVariant:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__memory/temporary_buffer.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_nlink_t.h:
+
+/usr/local/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/gcd_lcm.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__configuration/availability.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__utility/integer_sequence.h:
+
+/usr/local/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/check_memory_order.h:
+
+/usr/local/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake:
+
+/usr/local/include/QtCore/qcontainertools_impl.h:
+
+/usr/local/include/QtCore/qabstractitemmodel.h:
+
+/usr/local/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/accumulate.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/sched.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h:
+
+/usr/local/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake:
+
+/usr/local/include/QtCore/qsystemsemaphore.h:
+
+/usr/local/Cellar/qt@5/5.15.19/lib/QtGui.framework/Versions/5/Headers/qpixmap.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/streambuf.h:
+
+/usr/local/include/QtCore/qcryptographichash.h:
+
+/usr/local/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h:
+
+/usr/local/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/id.h:
 
 /usr/local/share/cmake/Modules/Compiler/GNU.cmake:
 
+/usr/local/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_fd_def.h:
+
+/usr/local/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_extent.h:
+
+/usr/local/include/QtCore/qbytearraymatcher.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_upper_bound.h:
+
+/usr/local/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake:
+
+/usr/local/opt/qt@5/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/countr.h:
+
+/usr/local/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/mem_fn.h:
+
 /usr/local/share/cmake/Modules/Compiler/Clang.cmake:
 
 /usr/local/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inner_product.h:
+
+/usr/local/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__node_handle:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_cv.h:
+
+/usr/local/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/tuple_element.h:
 
@@ -11253,6 +11435,18 @@ HealthSync_ALSE_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/geometric_distribution.h:
 
 /usr/local/share/cmake/Modules/Compiler/AppleClang-C.cmake:
+
+/usr/local/share/cmake/Modules/CMakeUnixFindMake.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/random_device.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocation_guard.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__mutex/once_flag.h:
+
+/usr/local/share/cmake/Modules/CMakeTestCompilerCommon.cmake:
+
+/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:
 
 /usr/local/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake:
 
@@ -11280,9 +11474,33 @@ HealthSync_ALSE_autogen/mocs_compilation.cpp:
 
 /usr/local/share/cmake/Modules/CMakeInitializeConfigs.cmake:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/private_constructor_tag.h:
-
 /usr/local/share/cmake/Modules/CMakeGenericSystem.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstddef:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/vector:
+
+/usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/memory:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/prev_permutation.h:
+
+/usr/local/include/QtWidgets/qabstractslider.h:
+
+/usr/local/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake:
+
+/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:
+
+/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:
+
+/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:
+
+/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/ranges_operations.h:
+
+/usr/local/share/cmake/Modules/CMakeCompilerIdDetection.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/ranges_transform.h:
 
@@ -11295,6 +11513,12 @@ HealthSync_ALSE_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/count_if.h:
 
 /usr/local/share/cmake/Modules/CMakeCXXInformation.cmake:
+
+/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Calculo.h:
+
+/usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp:
+
+/usr/local/share/cmake/Modules/CMakeCCompilerABI.c:
 
 /usr/local/include/QtWidgets/qstyle.h:
 
@@ -11360,12 +11584,6 @@ HealthSync_ALSE_autogen/mocs_compilation.cpp:
 
 /usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QMacHeifPlugin.cmake:
 
-/usr/local/include/QtCore/qloggingcategory.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/type_list.h:
-
 /usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__utility/exception_guard.h:
@@ -11383,8 +11601,6 @@ HealthSync_ALSE_autogen/mocs_compilation.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/boolean_testable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/support.h:
-
-/usr/local/opt/qt@5/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/negative_binomial_distribution.h:
 
@@ -11440,6 +11656,8 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Principal.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/char_traits.h:
 
+/usr/local/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/ostreambuf_iterator.h:
 
 /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qlabel.h:
@@ -11454,6 +11672,14 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Principal.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_valid_expansion.h:
 
+/usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/QLabel:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/simd_utils.h:
+
+/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QSpinBox:
+
 /usr/local/include/QtCore/QObject:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__iterator/move_sentinel.h:
@@ -11461,6 +11687,8 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Principal.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/default_searcher.h:
 
 /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QPushButton:
+
+/usr/local/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake:
 
 /usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QLineEdit:
 
@@ -11500,6 +11728,14 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Principal.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/default_random_engine.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/version:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/random:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/no_destroy.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/AvailabilityVersions.h:
+
 /usr/local/Cellar/qt@5/5.15.19/lib/QtGui.framework/Versions/5/Headers/qpen.h:
 
 /usr/local/Cellar/qt@5/5.15.19/lib/QtGui.framework/Versions/5/Headers/qpalette.h:
@@ -11512,19 +11748,19 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Principal.cpp:
 
 /usr/local/Cellar/qt@5/5.15.19/lib/QtGui.framework/Versions/5/Headers/qpaintdevice.h:
 
-/usr/local/Cellar/qt@5/5.15.19/lib/QtGui.framework/Versions/5/Headers/qimage.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/map:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/unwrap_ref.h:
+/usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qbytearray.h:
+
+/usr/local/Cellar/qt@5/5.15.19/lib/QtGui.framework/Versions/5/Headers/qmatrix.h:
+
+/usr/local/Cellar/qt@5/5.15.19/lib/QtGui.framework/Versions/5/Headers/qimage.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/__wctype.h:
 
 /usr/local/Cellar/qt@5/5.15.19/lib/QtGui.framework/Versions/5/Headers/qfontmetrics.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ios/fpos.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstddef:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/vector:
 
 /usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qversiontagging.h:
 
@@ -11540,12 +11776,6 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Principal.cpp:
 
 /usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qtcore-config.h:
 
-/usr/local/include/QtWidgets/qgraphicseffect.h:
-
-/usr/local/include/QtCore/qitemselectionmodel.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_compound.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/byte.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivial.h:
@@ -11556,9 +11786,9 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Principal.cpp:
 
 /usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qstringview.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/next.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cctype:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/next.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/ranlux.h:
 
@@ -11654,10 +11884,6 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Principal.cpp:
 
 /usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qchar.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_types/_nl_item.h:
-
-/usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qatomic.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/tuple_like_ext.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__config_site:
@@ -11684,6 +11910,12 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Principal.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/operations.h:
 
+/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QDoubleSpinBox:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/ratio:
+
+/usr/local/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__mutex/unique_lock.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint16_t.h:
@@ -11695,6 +11927,10 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Principal.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/constexpr_c_functions.h:
 
 /usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/QPair:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/strip_signature.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/fill_n.h:
 
 /usr/local/include/QtCore/qpair.h:
 
@@ -11708,9 +11944,9 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Principal.cpp:
 
 /usr/local/opt/qt@5/lib/QtCharts.framework/Headers/qpielegendmarker.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/bit:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/result_of.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/bit:
 
 /Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Login.h:
 
@@ -11724,13 +11960,11 @@ HealthSync_ALSE_autogen/moc_predefs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__utility/forward_like.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__format/extended_grapheme_cluster_table.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/exchange.h:
 
-/Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg_header_macro.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__format/extended_grapheme_cluster_table.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cwctype:
+/Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg_header_macro.h:
 
 /usr/local/opt/qt@5/lib/QtCharts.framework/Headers/qcategoryaxis.h:
 
@@ -11788,13 +12022,9 @@ HealthSync_ALSE_autogen/moc_predefs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/once_flag.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_u_int8_t.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/alignment_of.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_u_int.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iterator:
 
 /usr/local/include/QtGui/qtextdocumentfragment.h:
 
@@ -11830,17 +12060,25 @@ HealthSync_ALSE_autogen/moc_predefs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_null.h:
 
-/usr/local/include/QtCore/QVariant:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/parser_std_format_spec.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__memory/temporary_buffer.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__memory_resource/memory_resource.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_nlink_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_scalar.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_fd_isset.h:
+
+/usr/local/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_pod.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_mach_port_t.h:
 
 /usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qalgorithms.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/atomic:
+
+/usr/local/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake:
 
 /usr/local/include/QtCore/qxmlstream.h:
 
@@ -11850,6 +12088,10 @@ HealthSync_ALSE_autogen/moc_predefs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__math/roots.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/new:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_int32_t.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_reference.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/projected.h:
@@ -11857,6 +12099,8 @@ HealthSync_ALSE_autogen/moc_predefs.h:
 /usr/local/include/QtWidgets/qkeyeventtransition.h:
 
 /usr/local/include/QtGui/qcolortransform.h:
+
+/usr/local/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_int16_t.h:
 
@@ -11879,14 +12123,6 @@ HealthSync_ALSE_autogen/moc_predefs.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__iterator/erase_if_container.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_wctype_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/parser_std_format_spec.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__memory_resource/memory_resource.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_scalar.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_fd_isset.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_literal_type.h:
 
@@ -11915,6 +12151,8 @@ HealthSync_ALSE_autogen/moc_predefs.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_fd_setsize.h:
 
 /usr/local/include/QtGui/qpaintdevicewindow.h:
+
+/usr/local/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/find_index.h:
 
@@ -11958,19 +12196,11 @@ CMakeFiles/4.3.2/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__split_buffer:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__configuration/availability.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__utility/integer_sequence.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_posix_availability.h:
 
 /usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qvarlengtharray.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/pthread/pthread_impl.h:
-
-/usr/local/include/QtCore/qthreadstorage.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/locale:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/machine/types.h:
 
@@ -11980,11 +12210,15 @@ CMakeFiles/4.3.2/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/iterator_operations.h:
 
+/usr/local/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/blsr.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/wctype.h:
+
+/usr/local/share/cmake/Modules/CMakeFindBinUtils.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/wchar.h:
 
@@ -12014,8 +12248,6 @@ CMakeFiles/4.3.2/CMakeCXXCompiler.cmake:
 
 CMakeFiles/4.3.2/CMakeSystem.cmake:
 
-/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/qabstractbutton.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/unordered_map:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_dev_t.h:
@@ -12038,11 +12270,15 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/bernoulli_distribution.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/as_const.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_fd_def.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/list:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_key_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/ctype.h:
+
+/usr/local/Cellar/qt@5/5.15.19/lib/QtGui.framework/Versions/5/Headers/qicon.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__utility/rel_ops.h:
 
@@ -12055,6 +12291,8 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__atomic/atomic_flag.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__concepts/semiregular.h:
+
+/usr/local/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__functional/binder1st.h:
 
@@ -12079,10 +12317,6 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/partition_copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/aligned_storage.h:
-
-/usr/local/Cellar/qt@5/5.15.19/lib/QtWidgets.framework/Versions/5/Headers/QDoubleSpinBox:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/ratio:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/access.h:
 
@@ -12141,6 +12375,8 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/cstdlib:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h:
+
+/usr/local/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__iterator/iterator.h:
 
@@ -12204,8 +12440,6 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/new:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/for_each.h:
 
 /usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qcontainertools_impl.h:
@@ -12240,8 +12474,6 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 
 /usr/local/share/cmake/Modules/Platform/Apple-Clang-C.cmake:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__mutex/once_flag.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__concepts/regular.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__iterator/ranges_iterator_traits.h:
@@ -12255,6 +12487,10 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partial_sort.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_signed.h:
+
+/usr/local/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake:
+
+/usr/local/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/maybe_const.h:
 
@@ -12378,10 +12614,6 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_integral.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/sched.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_implicitly_default_constructible.h:
@@ -12410,23 +12642,11 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_function.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/search_n.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/unreachable.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_floating_point.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/decay.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_execution_policy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__iterator/bounded_iter.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/in_place.h:
-
-/Users/maxi/Desktop/Alse_ejercicios/Tercer_Corte/Proyecto_Final/include/Calculo.h:
 
 /usr/local/include/QtCore/qarraydata.h:
 
@@ -12476,8 +12696,6 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_allocator.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/exception:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/min.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/has_virtual_destructor.h:
@@ -12506,6 +12724,8 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_blkcnt_t.h:
 
+/usr/local/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__tuple/tuple_size.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__tuple/tuple_like_ext.h:
@@ -12523,6 +12743,12 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/i386/_types.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdio:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/unique.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__tuple/sfinae_helpers.h:
 
 /usr/local/opt/qt@5/lib/cmake/Qt5Core/Qt5CoreConfig.cmake:
 
@@ -12566,13 +12792,15 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__string/char_traits.h:
 
-/usr/local/Cellar/qt@5/5.15.19/lib/QtGui.framework/Versions/5/Headers/qtguiglobal.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/forward.h:
-
 /usr/local/include/QtCharts/QAbstractSeries:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__math/trigonometric_functions.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/forward_like.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__cstddef/ptrdiff_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_xlocale.h:
 
 /usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qpair.h:
 
@@ -12675,8 +12903,6 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__atomic/check_memory_order.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__debug_utils/sanitizers.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/underlying_type.h:
 
 /usr/local/include/QtCore/qscopeguard.h:
 
@@ -12822,10 +13048,6 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h:
 
-/usr/local/include/QtCore/qstdlibdetection.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/execution:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__iterator/iter_swap.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp_ref_type.h:
@@ -12834,13 +13056,13 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/empty.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__iterator/istreambuf_iterator.h:
+
 /usr/local/Cellar/qt@5/5.15.19/lib/QtGui.framework/Versions/5/Headers/qcursor.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__iterator/incrementable_traits.h:
-
-/usr/local/include/QtGui/QPen:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/swap.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__charconv/to_chars_base_10.h:
 
@@ -12854,9 +13076,11 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/mem_fun_ref.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__memory/uses_allocator.h:
+/usr/local/include/QtGui/qpixmapcache.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bit:
+/usr/local/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__memory/uses_allocator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/AvailabilityInternalLegacy.h:
 
@@ -12912,6 +13136,10 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_ino_t.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/formatter.h:
+
+/usr/local/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsblkcnt_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__functional/ranges_operations.h:
@@ -12941,6 +13169,10 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_string.h:
 
 /usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qstringliteral.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ctype.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__format/parser_std_format_spec.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/stdexcept:
 
@@ -12983,6 +13215,8 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/add_pointer.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/pthread/pthread.h:
+
+/usr/local/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake:
 
 /usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake:
 
@@ -13040,8 +13274,6 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/iterator:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print:
-
 /usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qmargins.h:
 
 /usr/local/include/QtGui/QBrush:
@@ -13052,6 +13284,8 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__format/indic_conjunct_break_table.h:
 
+/usr/local/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake:
+
 /usr/local/Cellar/qt@5/5.15.19/lib/QtSql.framework/Versions/5/Headers/qtsqlglobal.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__ios/fpos.h:
@@ -13059,6 +13293,8 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__format/formatter_output.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_in_port_t.h:
+
+/usr/local/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake:
 
 /usr/local/include/QtGui/qgenericmatrix.h:
 
@@ -13069,6 +13305,8 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/aligned_storage.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/rotate_copy.h:
+
+/usr/local/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/binary_search.h:
 
@@ -13112,6 +13350,12 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/machine/_endian.h:
 
+/usr/local/opt/qt@5/lib/QtWidgets.framework/Headers/qwidget.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__tree:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/memory.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__configuration/platform.h:
@@ -13139,10 +13383,6 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__bit/blsr.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_size_t.h:
-
-/usr/local/include/QtWidgets/qabstractbutton.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__iterator/prev.h:
 
@@ -13190,8 +13430,6 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/mutex:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/atomic:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_wchar.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__iterator/istream_iterator.h:
@@ -13212,6 +13450,8 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__chrono/duration.h:
 
+/usr/local/share/cmake/Modules/CMakeDetermineCompiler.cmake:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__cstddef/size_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__format/formatter_integral.h:
@@ -13223,8 +13463,6 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__iterator/empty.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__bit_reference:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__compare/ordering.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/AvailabilityInternal.h:
 
@@ -13262,8 +13500,6 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/concepts:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/array:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/minmax_element.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_trivially_assignable.h:
@@ -13289,8 +13525,6 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__atomic/contention_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__atomic/atomic_init.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/formatter.h:
 
 /usr/local/Cellar/qt@5/5.15.19/lib/QtCore.framework/Versions/5/Headers/qsize.h:
 
@@ -13366,6 +13600,10 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/is_heap_until.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/forward.h:
+
+/usr/local/Cellar/qt@5/5.15.19/lib/QtGui.framework/Versions/5/Headers/qtguiglobal.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__concepts/totally_ordered.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h:
@@ -13410,6 +13648,10 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__bit/countr.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/clocale:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__config:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__chrono/system_clock.h:
@@ -13430,6 +13672,10 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_final.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/decay.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__ranges/data.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_u_char.h:
@@ -13442,6 +13688,8 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__compare/compare_three_way.h:
 
+/usr/local/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_timespec.h:
 
 /usr/local/include/QtCore/qrandom.h:
@@ -13449,6 +13697,8 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/sfinae_helpers.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/piecewise_constant_distribution.h:
+
+/usr/local/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__ranges/concepts.h:
 
@@ -13476,8 +13726,6 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/AvailabilityMacros.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/auto_cast.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_enum.h:
 
 /usr/local/include/QtCore/qidentityproxymodel.h:
@@ -13497,6 +13745,8 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/make_signed.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_time.h:
+
+/usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stack:
 
@@ -13529,12 +13779,6 @@ CMakeFiles/4.3.2/CMakeSystem.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_time_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_nothrow_constructible.h:
-
-/usr/local/opt/qt@5/lib/QtCharts.framework/Headers/qabstractaxis.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/resource.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/rel_ops.h:
 
 /usr/local/share/cmake/Modules/Platform/Apple-Clang.cmake:
 
@@ -13640,7 +13884,15 @@ CMakeFiles/4.3.2/CMakeCCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/shuffle.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/unreachable.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/search_n.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__type_traits/is_object.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/numeric:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/generate_n.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__utility/convert_to_integral.h:
 
@@ -13690,6 +13942,8 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Login.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__math/traits.h:
 
+/usr/local/share/cmake/Modules/CMakeCXXCompiler.cmake.in:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__utility/forward.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/kill_dependency.h:
@@ -13700,6 +13954,8 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Login.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_fsblkcnt_t.h:
 
+/usr/local/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/is_sorted.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_reference.h:
@@ -13709,7 +13965,3 @@ HealthSync_ALSE_autogen/6YEA5652QU/moc_Login.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_condition.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__algorithm/equal.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/signal.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/pair.h:

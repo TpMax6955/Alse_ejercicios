@@ -1,0 +1,221 @@
+\doxysection{Usuario Class Reference}
+\hypertarget{class_usuario}{}\label{class_usuario}\index{Usuario@{Usuario}}
+
+
+Clase que representa a un usuario del sistema y realiza cálculos biométricos.  
+
+
+
+
+{\ttfamily \+\#include $<$Usuario.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_usuario_aa85a5371a098dfba5449140d9b8a472f}{Usuario}} ()
+\begin{DoxyCompactList}\small\item\em Constructor por defecto. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{class_usuario_a388408c6613806afafa6829ca9369d6a}{Usuario}} (int id, QString nombre, int edad, QString genero, double altura, double peso, double actividad)
+\begin{DoxyCompactList}\small\item\em Constructor con parámetros para inicializar el perfil del usuario. \end{DoxyCompactList}\item 
+int \doxymbox{\hyperlink{class_usuario_a654c2014a73c6361cbcf40af60098229}{get\+Id}} () const
+\begin{DoxyCompactList}\small\item\em Obtiene el identificador único del usuario. \end{DoxyCompactList}\item 
+QString \doxymbox{\hyperlink{class_usuario_aee03e5581418d1ecf6b849a256db55f2}{get\+Nombre\+Usuario}} () const
+\begin{DoxyCompactList}\small\item\em Obtiene el nombre del usuario. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_usuario_ade0f59b11f7ffecb9b4bee3650cba31d}{set\+Peso}} (double nuevo\+Peso)
+\begin{DoxyCompactList}\small\item\em Actualiza el peso del usuario en memoria. \end{DoxyCompactList}\item 
+double \doxymbox{\hyperlink{class_usuario_a48798be71f1d050f642aa3480f75107c}{get\+Peso}} () const
+\begin{DoxyCompactList}\small\item\em Obtiene el peso actual del usuario. \end{DoxyCompactList}\item 
+double \doxymbox{\hyperlink{class_usuario_a0a45208d25c56c91a88c87a81d06ae94}{get\+Altura}} () const
+\begin{DoxyCompactList}\small\item\em Obtiene la altura del usuario. \end{DoxyCompactList}\item 
+double \doxymbox{\hyperlink{class_usuario_a6b82e7f680303f5a70aa3e4feb5f4bc4}{calcular\+IMC}} () const
+\begin{DoxyCompactList}\small\item\em Calcula el Índice de Masa Corporal (IMC). \end{DoxyCompactList}\item 
+double \doxymbox{\hyperlink{class_usuario_a15b43c8aea6863f8c59c4993762ea015}{calcular\+TMB}} () const
+\begin{DoxyCompactList}\small\item\em Calcula la Tasa Metabólica Basal usando la fórmula de Mifflin-\/\+St Jeor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clase que representa a un usuario del sistema y realiza cálculos biométricos. 
+
+\label{class_usuario_doc-constructors}
+\Hypertarget{class_usuario_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_usuario_aa85a5371a098dfba5449140d9b8a472f}\index{Usuario@{Usuario}!Usuario@{Usuario}}
+\index{Usuario@{Usuario}!Usuario@{Usuario}}
+\doxysubsubsection{\texorpdfstring{Usuario()}{Usuario()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_usuario_aa85a5371a098dfba5449140d9b8a472f} 
+Usuario::\+\+Usuario (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Constructor por defecto. 
+
+Constructor por defecto de la clase \doxylink{class_usuario}{Usuario}. Inicializa los valores a cero o por defecto. \Hypertarget{class_usuario_a388408c6613806afafa6829ca9369d6a}\index{Usuario@{Usuario}!Usuario@{Usuario}}
+\index{Usuario@{Usuario}!Usuario@{Usuario}}
+\doxysubsubsection{\texorpdfstring{Usuario()}{Usuario()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_usuario_a388408c6613806afafa6829ca9369d6a} 
+Usuario::\+\+Usuario (\begin{DoxyParamCaption}\item[{int}]{id}{, }\item[{QString}]{nombre}{, }\item[{int}]{edad}{, }\item[{QString}]{genero}{, }\item[{double}]{altura}{, }\item[{double}]{peso}{, }\item[{double}]{actividad}{}\end{DoxyParamCaption})}
+
+
+
+Constructor con parámetros para inicializar el perfil del usuario. 
+
+Constructor parametrizado para crear un perfil de usuario completo.
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & ID único. \\
+\hline
+{\em nombre} & Nombre del usuario. \\
+\hline
+{\em edad} & Edad en años. \\
+\hline
+{\em genero} & Género del usuario. \\
+\hline
+{\em altura} & Altura en metros. \\
+\hline
+{\em peso} & Peso en kg. \\
+\hline
+{\em actividad} & Factor de nivel de actividad.\\
+\hline
+{\em id} & Identificador único del usuario en la base de datos. \\
+\hline
+{\em nombre} & Nombre de usuario. \\
+\hline
+{\em edad} & Edad en años cronológicos. \\
+\hline
+{\em genero} & Identidad de género biológica ("{}\+M"{} o "{}m"{} para masculino, otro para femenino). \\
+\hline
+{\em altura} & Estatura física en metros. \\
+\hline
+{\em peso} & Peso corporal en kilogramos. \\
+\hline
+{\em actividad} & Factor multiplicador del nivel de actividad física. \\
+\hline
+\end{DoxyParams}
+
+
+\label{class_usuario_doc-func-members}
+\Hypertarget{class_usuario_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_usuario_a6b82e7f680303f5a70aa3e4feb5f4bc4}\index{Usuario@{Usuario}!calcularIMC@{calcularIMC}}
+\index{calcularIMC@{calcularIMC}!Usuario@{Usuario}}
+\doxysubsubsection{\texorpdfstring{calcularIMC()}{calcularIMC()}}
+{\footnotesize\ttfamily \label{class_usuario_a6b82e7f680303f5a70aa3e4feb5f4bc4} 
+double Usuario::\+calcular\+IMC (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Calcula el Índice de Masa Corporal (IMC). 
+
+Calcula el Índice de Masa Corporal (IMC) del usuario en base a su peso y altura.
+
+\begin{DoxyReturn}{Returns}
+El valor del IMC.
+
+El valor del cálculo del IMC, o 0.\+0 si la altura registrada es menor o igual a 0. 
+\end{DoxyReturn}
+\Hypertarget{class_usuario_a15b43c8aea6863f8c59c4993762ea015}\index{Usuario@{Usuario}!calcularTMB@{calcularTMB}}
+\index{calcularTMB@{calcularTMB}!Usuario@{Usuario}}
+\doxysubsubsection{\texorpdfstring{calcularTMB()}{calcularTMB()}}
+{\footnotesize\ttfamily \label{class_usuario_a15b43c8aea6863f8c59c4993762ea015} 
+double Usuario::\+calcular\+TMB (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Calcula la Tasa Metabólica Basal usando la fórmula de Mifflin-\/\+St Jeor. 
+
+Calcula la Tasa Metabólica Basal (TMB) aplicando la fórmula de Mifflin-\/\+St Jeor.
+
+\begin{DoxyReturn}{Returns}
+Las kilocalorías diarias recomendadas.
+
+El requerimiento calórico diario estimado (TMB) ajustado al nivel de actividad. 
+\end{DoxyReturn}
+\Hypertarget{class_usuario_a0a45208d25c56c91a88c87a81d06ae94}\index{Usuario@{Usuario}!getAltura@{getAltura}}
+\index{getAltura@{getAltura}!Usuario@{Usuario}}
+\doxysubsubsection{\texorpdfstring{getAltura()}{getAltura()}}
+{\footnotesize\ttfamily \label{class_usuario_a0a45208d25c56c91a88c87a81d06ae94} 
+double Usuario::\+get\+Altura (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Obtiene la altura del usuario. 
+
+Obtiene la estatura del usuario.
+
+\begin{DoxyReturn}{Returns}
+La altura en metros. 
+\end{DoxyReturn}
+\Hypertarget{class_usuario_a654c2014a73c6361cbcf40af60098229}\index{Usuario@{Usuario}!getId@{getId}}
+\index{getId@{getId}!Usuario@{Usuario}}
+\doxysubsubsection{\texorpdfstring{getId()}{getId()}}
+{\footnotesize\ttfamily \label{class_usuario_a654c2014a73c6361cbcf40af60098229} 
+int Usuario::\+get\+Id (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Obtiene el identificador único del usuario. 
+
+\begin{DoxyReturn}{Returns}
+El ID del usuario.
+
+Un entero que representa el ID del usuario. 
+\end{DoxyReturn}
+\Hypertarget{class_usuario_aee03e5581418d1ecf6b849a256db55f2}\index{Usuario@{Usuario}!getNombreUsuario@{getNombreUsuario}}
+\index{getNombreUsuario@{getNombreUsuario}!Usuario@{Usuario}}
+\doxysubsubsection{\texorpdfstring{getNombreUsuario()}{getNombreUsuario()}}
+{\footnotesize\ttfamily \label{class_usuario_aee03e5581418d1ecf6b849a256db55f2} 
+QString Usuario::\+get\+Nombre\+Usuario (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Obtiene el nombre del usuario. 
+
+Obtiene el nombre registrado del usuario.
+
+\begin{DoxyReturn}{Returns}
+El nombre de usuario.
+
+Cadena de texto con el nombre de usuario. 
+\end{DoxyReturn}
+\Hypertarget{class_usuario_a48798be71f1d050f642aa3480f75107c}\index{Usuario@{Usuario}!getPeso@{getPeso}}
+\index{getPeso@{getPeso}!Usuario@{Usuario}}
+\doxysubsubsection{\texorpdfstring{getPeso()}{getPeso()}}
+{\footnotesize\ttfamily \label{class_usuario_a48798be71f1d050f642aa3480f75107c} 
+double Usuario::\+get\+Peso (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const}
+
+
+
+Obtiene el peso actual del usuario. 
+
+Obtiene el peso actual registrado del usuario.
+
+\begin{DoxyReturn}{Returns}
+El peso en kg.
+
+El peso en kilogramos. 
+\end{DoxyReturn}
+\Hypertarget{class_usuario_ade0f59b11f7ffecb9b4bee3650cba31d}\index{Usuario@{Usuario}!setPeso@{setPeso}}
+\index{setPeso@{setPeso}!Usuario@{Usuario}}
+\doxysubsubsection{\texorpdfstring{setPeso()}{setPeso()}}
+{\footnotesize\ttfamily \label{class_usuario_ade0f59b11f7ffecb9b4bee3650cba31d} 
+void Usuario::\+set\+Peso (\begin{DoxyParamCaption}\item[{double}]{nuevo\+Peso}{}\end{DoxyParamCaption})}
+
+
+
+Actualiza el peso del usuario en memoria. 
+
+Actualiza el peso actual del usuario en la memoria.
+
+
+\begin{DoxyParams}{Parameters}
+{\em nuevo\+Peso} & El peso a registrar en kg.\\
+\hline
+{\em nuevo\+Peso} & El valor del nuevo peso en kilogramos a registrar. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files:\+\begin{DoxyCompactItemize}
+\item 
+include/\+\doxymbox{\hyperlink{_usuario_8h}{Usuario.\+h}}\item 
+src/\+\doxymbox{\hyperlink{_usuario_8cpp}{Usuario.\+cpp}}\end{DoxyCompactItemize}

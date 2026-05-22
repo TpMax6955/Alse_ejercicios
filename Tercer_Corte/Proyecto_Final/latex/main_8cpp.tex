@@ -1,0 +1,46 @@
+\doxysection{src/\+main.cpp File Reference}
+\hypertarget{main_8cpp}{}\label{main_8cpp}\index{src/main.cpp@{src/main.cpp}}
+
+
+Archivo principal que inicializa la aplicación Health\+Sync y la conexión a la base de datos.  
+
+
+{\ttfamily \+\#include $<$QApplication$>$}\newline
+{\ttfamily \+\#include $<$QDebug$>$}\newline
+{\ttfamily \+\#include "{}Database\+Manager.\+h"{}}\newline
+{\ttfamily \+\#include "{}Login.\+h"{}}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \doxymbox{\hyperlink{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97}{main}} (int argc, char \texorpdfstring{$\ast$}{*}argv\+[$\,$]\+)
+\begin{DoxyCompactList}\small\item\em Función principal de la aplicación. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Archivo principal que inicializa la aplicación Health\+Sync y la conexión a la base de datos. 
+
+
+
+\label{main_8cpp_doc-func-members}
+\Hypertarget{main_8cpp_doc-func-members}
+\doxysubsection{Function Documentation}
+\Hypertarget{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97}\index{main.cpp@{main.cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily \label{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97} 
+int main (\begin{DoxyParamCaption}\item[{int}]{argc}{, }\item[{char \texorpdfstring{$\ast$}{*}}]{argv}{\+[$\,$]\+}\end{DoxyParamCaption})}
+
+
+
+Función principal de la aplicación. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & Número de argumentos de la línea de comandos. \\
+\hline
+{\em argv} & Arreglo de argumentos de la línea de comandos. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Código de estado al finalizar la ejecución (0 si es exitoso, -\/1 si falla la base de datos). 
+\end{DoxyReturn}

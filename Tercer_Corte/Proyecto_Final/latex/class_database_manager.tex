@@ -1,0 +1,314 @@
+\doxysection{Database\+Manager Class Reference}
+\hypertarget{class_database_manager}{}\label{class_database_manager}\index{DatabaseManager@{DatabaseManager}}
+
+
+Gestiona la persistencia de datos de salud y usuarios.  
+
+
+
+
+{\ttfamily \+\#include $<$Database\+Manager.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_database_manager_aa162d97472e6c31a4e873adda435dbb6}\label{class_database_manager_aa162d97472e6c31a4e873adda435dbb6} 
+{\bfseries Database\+Manager} ()
+\begin{DoxyCompactList}\small\item\em Constructor por defecto de \doxylink{class_database_manager}{Database\+Manager}. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{class_database_manager_aea79493087049fbd0e94217ebc31a50e}{Database\+Manager}} (const QString \&path)
+\begin{DoxyCompactList}\small\item\em Constructor parametrizado que recibe la ruta de la base de datos. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{class_database_manager_ae9b3a5da1e04fbb00faf8a034da1d063}{\texorpdfstring{$\sim$}{\string~}\+Database\+Manager}} ()
+\begin{DoxyCompactList}\small\item\em Destructor de la clase \doxylink{class_database_manager}{Database\+Manager}. \end{DoxyCompactList}\item 
+bool \doxymbox{\hyperlink{class_database_manager_ab23c2c603e60937dfb3a9f9ddc7fb4f9}{init}} ()
+\begin{DoxyCompactList}\small\item\em Inicializa la base de datos y prepara las tablas. \end{DoxyCompactList}\item 
+bool \doxymbox{\hyperlink{class_database_manager_a8e18f957c9df0b4e1a8587f745077fc5}{validar\+Usuario}} (const QString \&username, const QString \&password)
+\begin{DoxyCompactList}\small\item\em Valida si el usuario y la contraseña coinciden con los registros. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{class_usuario}{Usuario}} \doxymbox{\hyperlink{class_database_manager_aabd1aff5f58c01df5feb83b01d2ac305}{obtener\+Usuario}} (const QString \&username)
+\begin{DoxyCompactList}\small\item\em Obtiene un objeto \doxylink{class_usuario}{Usuario} con la información almacenada en la base de datos. \end{DoxyCompactList}\item 
+bool \doxymbox{\hyperlink{class_database_manager_aad20d29d8edd88ed3758ee6211aa15d3}{registrar\+Usuario}} (const QString \&username, const QString \&password, int edad, const QString \&genero, double altura, double peso, double actividad)
+\begin{DoxyCompactList}\small\item\em Registra un nuevo usuario en la base de datos. \end{DoxyCompactList}\item 
+bool \doxymbox{\hyperlink{class_database_manager_a134cbcf155c0c22992a2f4e7f417dbdf}{registrar\+Medicion}} (int usuario\+\_\+id, double peso, int presion\+\_\+sis, int presion\+\_\+dia, int glucosa)
+\begin{DoxyCompactList}\small\item\em Registra una nueva medición de indicadores de salud para un usuario. \end{DoxyCompactList}\item 
+QVector$<$ QPair$<$ QString, double $>$ $>$ \doxymbox{\hyperlink{class_database_manager_a24825ddf7cb19c2fe6072807c9e4de14}{obtener\+Historial\+Peso}} (int usuario\+\_\+id)
+\begin{DoxyCompactList}\small\item\em Obtiene el historial de peso de un usuario ordenado cronológicamente. \end{DoxyCompactList}\item 
+bool \doxymbox{\hyperlink{class_database_manager_aec2538fd9831ec5729d4e18720023f7f}{exportar\+Historial\+CSV}} (int usuario\+\_\+id, const QString \&ruta\+\_\+archivo)
+\begin{DoxyCompactList}\small\item\em Exporta el historial médico de un usuario a un archivo de formato CSV. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Gestiona la persistencia de datos de salud y usuarios. 
+
+\label{class_database_manager_doc-constructors}
+\Hypertarget{class_database_manager_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_database_manager_aea79493087049fbd0e94217ebc31a50e}\index{DatabaseManager@{DatabaseManager}!DatabaseManager@{DatabaseManager}}
+\index{DatabaseManager@{DatabaseManager}!DatabaseManager@{DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{DatabaseManager()}{DatabaseManager()}}
+{\footnotesize\ttfamily \label{class_database_manager_aea79493087049fbd0e94217ebc31a50e} 
+Database\+Manager::\+\+Database\+Manager (\begin{DoxyParamCaption}\item[{const QString \&}]{path}{}\end{DoxyParamCaption})}
+
+
+
+Constructor parametrizado que recibe la ruta de la base de datos. 
+
+Constructor de la clase \doxylink{class_database_manager}{Database\+Manager}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & Ruta o nombre del archivo de la base de datos.\\
+\hline
+{\em path} & Ruta del archivo de la base de datos SQLite. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_database_manager_ae9b3a5da1e04fbb00faf8a034da1d063}\index{DatabaseManager@{DatabaseManager}!````~DatabaseManager@{\texorpdfstring{$\sim$}{\string~}DatabaseManager}}
+\index{````~DatabaseManager@{\texorpdfstring{$\sim$}{\string~}DatabaseManager}!DatabaseManager@{DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}DatabaseManager()}{\string~DatabaseManager()}}
+{\footnotesize\ttfamily \label{class_database_manager_ae9b3a5da1e04fbb00faf8a034da1d063} 
+Database\+Manager::\+\texorpdfstring{$\sim$}{\string~}\+Database\+Manager (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Destructor de la clase \doxylink{class_database_manager}{Database\+Manager}. 
+
+Destructor de la clase \doxylink{class_database_manager}{Database\+Manager}. Cierra la conexión si está abierta. 
+
+\label{class_database_manager_doc-func-members}
+\Hypertarget{class_database_manager_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_database_manager_aec2538fd9831ec5729d4e18720023f7f}\index{DatabaseManager@{DatabaseManager}!exportarHistorialCSV@{exportarHistorialCSV}}
+\index{exportarHistorialCSV@{exportarHistorialCSV}!DatabaseManager@{DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{exportarHistorialCSV()}{exportarHistorialCSV()}}
+{\footnotesize\ttfamily \label{class_database_manager_aec2538fd9831ec5729d4e18720023f7f} 
+bool Database\+Manager::\+exportar\+Historial\+CSV (\begin{DoxyParamCaption}\item[{int}]{usuario\+\_\+id}{, }\item[{const QString \&}]{ruta\+\_\+archivo}{}\end{DoxyParamCaption})}
+
+
+
+Exporta el historial médico de un usuario a un archivo de formato CSV. 
+
+Exporta todas las mediciones de un usuario a un archivo en formato CSV.
+
+
+\begin{DoxyParams}{Parameters}
+{\em usuario\+\_\+id} & ID del usuario. \\
+\hline
+{\em ruta\+\_\+archivo} & Ruta física donde se creará el archivo CSV. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true si la exportación fue exitosa, false en caso de fallo.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em usuario\+\_\+id} & El identificador del usuario. \\
+\hline
+{\em ruta\+\_\+archivo} & La ruta absoluta o relativa donde se guardará el archivo CSV. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true si el archivo se exportó con éxito, false si no se pudo escribir. 
+\end{DoxyReturn}
+\Hypertarget{class_database_manager_ab23c2c603e60937dfb3a9f9ddc7fb4f9}\index{DatabaseManager@{DatabaseManager}!init@{init}}
+\index{init@{init}!DatabaseManager@{DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily \label{class_database_manager_ab23c2c603e60937dfb3a9f9ddc7fb4f9} 
+bool Database\+Manager::\+init (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Inicializa la base de datos y prepara las tablas. 
+
+Inicializa la conexión con la base de datos y crea las tablas necesarias.
+
+\begin{DoxyReturn}{Returns}
+true si la inicialización fue exitosa, false en caso contrario.
+
+true si la conexión y creación de tablas fue exitosa, false en caso contrario. 
+\end{DoxyReturn}
+\Hypertarget{class_database_manager_a24825ddf7cb19c2fe6072807c9e4de14}\index{DatabaseManager@{DatabaseManager}!obtenerHistorialPeso@{obtenerHistorialPeso}}
+\index{obtenerHistorialPeso@{obtenerHistorialPeso}!DatabaseManager@{DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{obtenerHistorialPeso()}{obtenerHistorialPeso()}}
+{\footnotesize\ttfamily \label{class_database_manager_a24825ddf7cb19c2fe6072807c9e4de14} 
+QVector$<$ QPair$<$ QString, double $>$ $>$ Database\+Manager::\+obtener\+Historial\+Peso (\begin{DoxyParamCaption}\item[{int}]{usuario\+\_\+id}{}\end{DoxyParamCaption})}
+
+
+
+Obtiene el historial de peso de un usuario ordenado cronológicamente. 
+
+Obtiene el historial cronológico de peso de un usuario para graficarlo.
+
+
+\begin{DoxyParams}{Parameters}
+{\em usuario\+\_\+id} & ID del usuario a consultar. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Un QVector de pares con la fecha (QString) y el peso (double).
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em usuario\+\_\+id} & El identificador del usuario. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Un vector de pares que contiene la fecha y hora como QString y el peso como double. 
+\end{DoxyReturn}
+\Hypertarget{class_database_manager_aabd1aff5f58c01df5feb83b01d2ac305}\index{DatabaseManager@{DatabaseManager}!obtenerUsuario@{obtenerUsuario}}
+\index{obtenerUsuario@{obtenerUsuario}!DatabaseManager@{DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{obtenerUsuario()}{obtenerUsuario()}}
+{\footnotesize\ttfamily \label{class_database_manager_aabd1aff5f58c01df5feb83b01d2ac305} 
+\doxymbox{\hyperlink{class_usuario}{Usuario}} Database\+Manager::\+obtener\+Usuario (\begin{DoxyParamCaption}\item[{const QString \&}]{username}{}\end{DoxyParamCaption})}
+
+
+
+Obtiene un objeto \doxylink{class_usuario}{Usuario} con la información almacenada en la base de datos. 
+
+Obtiene el objeto \doxylink{class_usuario}{Usuario} completo con sus datos médicos más recientes desde la base de datos.
+
+
+\begin{DoxyParams}{Parameters}
+{\em username} & Nombre del usuario a consultar. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Objeto \doxylink{class_usuario}{Usuario} con sus respectivos datos.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em username} & El nombre de usuario que se desea recuperar. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Un objeto \doxylink{class_usuario}{Usuario} instanciado con los datos encontrados. 
+\end{DoxyReturn}
+\Hypertarget{class_database_manager_a134cbcf155c0c22992a2f4e7f417dbdf}\index{DatabaseManager@{DatabaseManager}!registrarMedicion@{registrarMedicion}}
+\index{registrarMedicion@{registrarMedicion}!DatabaseManager@{DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{registrarMedicion()}{registrarMedicion()}}
+{\footnotesize\ttfamily \label{class_database_manager_a134cbcf155c0c22992a2f4e7f417dbdf} 
+bool Database\+Manager::\+registrar\+Medicion (\begin{DoxyParamCaption}\item[{int}]{usuario\+\_\+id}{, }\item[{double}]{peso}{, }\item[{int}]{presion\+\_\+sis}{, }\item[{int}]{presion\+\_\+dia}{, }\item[{int}]{glucosa}{}\end{DoxyParamCaption})}
+
+
+
+Registra una nueva medición de indicadores de salud para un usuario. 
+
+Registra una nueva medición de salud para un usuario específico.
+
+
+\begin{DoxyParams}{Parameters}
+{\em usuario\+\_\+id} & ID del usuario al que pertenece la medición. \\
+\hline
+{\em peso} & Peso registrado en kg. \\
+\hline
+{\em presion\+\_\+sis} & Presión sistólica en mm\+Hg. \\
+\hline
+{\em presion\+\_\+dia} & Presión diastólica en mm\+Hg. \\
+\hline
+{\em glucosa} & Nivel de glucosa en mg/\+dL. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true si la medición se guardó con éxito, false en caso de error.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em usuario\+\_\+id} & El identificador único del usuario en la base de datos. \\
+\hline
+{\em peso} & Peso medido en kilogramos. \\
+\hline
+{\em presion\+\_\+sis} & Presión arterial sistólica en mm\+Hg. \\
+\hline
+{\em presion\+\_\+dia} & Presión arterial diastólica en mm\+Hg. \\
+\hline
+{\em glucosa} & Nivel de glucosa en mg/\+dL. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true si la medición se guardó correctamente, false en caso de error. 
+\end{DoxyReturn}
+\Hypertarget{class_database_manager_aad20d29d8edd88ed3758ee6211aa15d3}\index{DatabaseManager@{DatabaseManager}!registrarUsuario@{registrarUsuario}}
+\index{registrarUsuario@{registrarUsuario}!DatabaseManager@{DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{registrarUsuario()}{registrarUsuario()}}
+{\footnotesize\ttfamily \label{class_database_manager_aad20d29d8edd88ed3758ee6211aa15d3} 
+bool Database\+Manager::\+registrar\+Usuario (\begin{DoxyParamCaption}\item[{const QString \&}]{username}{, }\item[{const QString \&}]{password}{, }\item[{int}]{edad}{, }\item[{const QString \&}]{genero}{, }\item[{double}]{altura}{, }\item[{double}]{peso}{, }\item[{double}]{actividad}{}\end{DoxyParamCaption})}
+
+
+
+Registra un nuevo usuario en la base de datos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em username} & Nombre de usuario. \\
+\hline
+{\em password} & Contraseña. \\
+\hline
+{\em edad} & Edad del usuario. \\
+\hline
+{\em genero} & Género del usuario. \\
+\hline
+{\em altura} & Altura en metros. \\
+\hline
+{\em peso} & Peso en kilogramos. \\
+\hline
+{\em actividad} & Factor de nivel de actividad física. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true si el registro fue exitoso, false si falló.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em username} & Nombre de usuario único. \\
+\hline
+{\em password} & Contraseña de la cuenta. \\
+\hline
+{\em edad} & Edad cronológica del usuario. \\
+\hline
+{\em genero} & Identidad de género. \\
+\hline
+{\em altura} & Estatura en metros. \\
+\hline
+{\em peso} & Peso inicial en kilogramos. \\
+\hline
+{\em actividad} & Nivel de actividad física del usuario. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true si el registro se completó con éxito, false en caso de error. 
+\end{DoxyReturn}
+\Hypertarget{class_database_manager_a8e18f957c9df0b4e1a8587f745077fc5}\index{DatabaseManager@{DatabaseManager}!validarUsuario@{validarUsuario}}
+\index{validarUsuario@{validarUsuario}!DatabaseManager@{DatabaseManager}}
+\doxysubsubsection{\texorpdfstring{validarUsuario()}{validarUsuario()}}
+{\footnotesize\ttfamily \label{class_database_manager_a8e18f957c9df0b4e1a8587f745077fc5} 
+bool Database\+Manager::\+validar\+Usuario (\begin{DoxyParamCaption}\item[{const QString \&}]{username}{, }\item[{const QString \&}]{password}{}\end{DoxyParamCaption})}
+
+
+
+Valida si el usuario y la contraseña coinciden con los registros. 
+
+Valida las credenciales de un usuario en la base de datos.
+
+
+\begin{DoxyParams}{Parameters}
+{\em username} & Nombre de usuario. \\
+\hline
+{\em password} & Contraseña. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true si las credenciales son válidas, false de lo contrario.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em username} & Nombre de usuario a validar. \\
+\hline
+{\em password} & Contraseña ingresada por el usuario. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true si las credenciales coinciden, false si son incorrectas o no existe el usuario. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files:\+\begin{DoxyCompactItemize}
+\item 
+include/\+\doxymbox{\hyperlink{_database_manager_8h}{Database\+Manager.\+h}}\item 
+src/\+\doxymbox{\hyperlink{_database_manager_8cpp}{Database\+Manager.\+cpp}}\end{DoxyCompactItemize}

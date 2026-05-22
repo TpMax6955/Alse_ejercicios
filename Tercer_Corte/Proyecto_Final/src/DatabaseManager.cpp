@@ -1,20 +1,33 @@
+/**
+ * @file DatabaseManager.cpp
+ * @brief Implementación de las operaciones de la base de datos SQLite para HealthSync.
+ */
+
 #include "DatabaseManager.h"
 #include <QSqlQuery>
 #include <QSqlError>
 #include <QDebug>
 #include <QFile>
 #include <QTextStream>
-#include <QSqlQuery>
-#include <QSqlError>
 #include <QVariant>
-#include <QDebug>
 
+/**
+ * @brief Constructor de la clase DatabaseManager.
+ * @param path Ruta del archivo de la base de datos SQLite.
+ */
 DatabaseManager::DatabaseManager(const QString& path) : m_path(path) {}
 
+/**
+ * @brief Destructor de la clase DatabaseManager. Cierra la conexión si está abierta.
+ */
 DatabaseManager::~DatabaseManager() {
     if (m_db.isOpen()) m_db.close();
 }
 
+/**
+ * @brief Inicializa la conexión con la base de datos y crea las tablas necesarias.
+ * @return true si la conexión y creación de tablas fue exitosa, false en caso contrario.
+ */
 bool DatabaseManager::init() {
     m_db = QSqlDatabase::addDatabase("QSQLITE");
     m_db.setDatabaseName(m_path);
@@ -26,6 +39,10 @@ bool DatabaseManager::init() {
     return createTables();
 }
 
+/**
+ * @brief Crea las tablas de 'usuarios' y 'mediciones' en la base de datos si no existen.
+ * @return true si las tablas se crearon o ya existían correctamente, false en caso de error.
+ */
 bool DatabaseManager::createTables() {
     QSqlQuery query;
     
@@ -51,6 +68,12 @@ bool DatabaseManager::createTables() {
     return query.exec(usersTable) && query.exec(measurementsTable);
 }
 
+/**
+ * @brief Valida las credenciales de un usuario en la base de datos.
+ * @param username Nombre de usuario a validar.
+ * @param password Contraseña ingresada por el usuario.
+ * @return true si las credenciales coinciden, false si son incorrectas o no existe el usuario.
+ */
 bool DatabaseManager::validarUsuario(const QString& username, const QString& password) {
     QSqlQuery query;
     query.prepare("SELECT password FROM usuarios WHERE nombre_usuario = :username");
@@ -65,6 +88,17 @@ bool DatabaseManager::validarUsuario(const QString& username, const QString& pas
     return false;
 }
 
+/**
+ * @brief Registra un nuevo usuario en la base de datos.
+ * @param username Nombre de usuario único.
+ * @param password Contraseña de la cuenta.
+ * @param edad Edad cronológica del usuario.
+ * @param genero Identidad de género.
+ * @param altura Estatura en metros.
+ * @param peso Peso inicial en kilogramos.
+ * @param actividad Nivel de actividad física del usuario.
+ * @return true si el registro se completó con éxito, false en caso de error.
+ */
 bool DatabaseManager::registrarUsuario(const QString& username, const QString& password, int edad, const QString& genero, double altura, double peso, double actividad) {
     QSqlQuery query;
     query.prepare("INSERT INTO usuarios (nombre_usuario, password, edad, genero, altura, nivel_actividad) "
@@ -86,6 +120,11 @@ bool DatabaseManager::registrarUsuario(const QString& username, const QString& p
     }
 }
 
+/**
+ * @brief Obtiene el objeto Usuario completo con sus datos médicos más recientes desde la base de datos.
+ * @param username El nombre de usuario que se desea recuperar.
+ * @return Un objeto Usuario instanciado con los datos encontrados.
+ */
 Usuario DatabaseManager::obtenerUsuario(const QString& username) {
     QSqlQuery query;
     query.prepare("SELECT id, edad, genero, altura, nivel_actividad FROM usuarios WHERE nombre_usuario = :user");
@@ -113,6 +152,16 @@ Usuario DatabaseManager::obtenerUsuario(const QString& username) {
     
     return Usuario();
 }
+
+/**
+ * @brief Registra una nueva medición de salud para un usuario específico.
+ * @param usuario_id El identificador único del usuario en la base de datos.
+ * @param peso Peso medido en kilogramos.
+ * @param presion_sis Presión arterial sistólica en mmHg.
+ * @param presion_dia Presión arterial diastólica en mmHg.
+ * @param glucosa Nivel de glucosa en mg/dL.
+ * @return true si la medición se guardó correctamente, false en caso de error.
+ */
 bool DatabaseManager::registrarMedicion(int usuario_id, double peso, int presion_sis, int presion_dia, int glucosa) {
     QSqlQuery query;
     query.prepare("INSERT INTO mediciones (usuario_id, fecha_hora, peso, presion_sis, presion_dia, glucosa) "
@@ -132,6 +181,11 @@ bool DatabaseManager::registrarMedicion(int usuario_id, double peso, int presion
     }
 }
 
+/**
+ * @brief Obtiene el historial cronológico de peso de un usuario para graficarlo.
+ * @param usuario_id El identificador del usuario.
+ * @return Un vector de pares que contiene la fecha y hora como QString y el peso como double.
+ */
 QVector<QPair<QString, double>> DatabaseManager::obtenerHistorialPeso(int usuario_id) {
     QVector<QPair<QString, double>> historial;
     QSqlQuery query;
@@ -154,6 +208,12 @@ QVector<QPair<QString, double>> DatabaseManager::obtenerHistorialPeso(int usuari
     return historial;
 }
 
+/**
+ * @brief Exporta todas las mediciones de un usuario a un archivo en formato CSV.
+ * @param usuario_id El identificador del usuario.
+ * @param ruta_archivo La ruta absoluta o relativa donde se guardará el archivo CSV.
+ * @return true si el archivo se exportó con éxito, false si no se pudo escribir.
+ */
 bool DatabaseManager::exportarHistorialCSV(int usuario_id, const QString& ruta_archivo) {
     QFile file(ruta_archivo);
 

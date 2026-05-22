@@ -1,0 +1,46 @@
+\doxysection{Database\+Manager.\+h}
+\hypertarget{_database_manager_8h_source}{}\label{_database_manager_8h_source}\index{include/DatabaseManager.h@{include/DatabaseManager.h}}
+\doxymbox{\hyperlink{_database_manager_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#ifndef\ DATABASEMANAGER\_H}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#define\ DATABASEMANAGER\_H}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ <QSqlDatabase>}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <QString>}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ <QVector>}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ <QPair>}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ "{}\doxymbox{\hyperlink{_usuario_8h}{Usuario.h}}"{}}}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00018\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_database_manager_aa162d97472e6c31a4e873adda435dbb6}{DatabaseManager}}\ \{}
+\DoxyCodeLine{00019\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00023\ \ \ \ \ \doxymbox{\hyperlink{class_database_manager_aa162d97472e6c31a4e873adda435dbb6}{DatabaseManager}}();}
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00029\ \ \ \ \ \doxymbox{\hyperlink{class_database_manager_aa162d97472e6c31a4e873adda435dbb6}{DatabaseManager}}(\textcolor{keyword}{const}\ QString\&\ path);}
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00034\ \ \ \ \ \doxymbox{\hyperlink{class_database_manager_ae9b3a5da1e04fbb00faf8a034da1d063}{\string~DatabaseManager}}();}
+\DoxyCodeLine{00035\ }
+\DoxyCodeLine{00040\ \ \ \ \ \textcolor{keywordtype}{bool}\ \doxymbox{\hyperlink{class_database_manager_ab23c2c603e60937dfb3a9f9ddc7fb4f9}{init}}();}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00048\ \ \ \ \ \textcolor{keywordtype}{bool}\ \doxymbox{\hyperlink{class_database_manager_a8e18f957c9df0b4e1a8587f745077fc5}{validarUsuario}}(\textcolor{keyword}{const}\ QString\&\ username,\ \textcolor{keyword}{const}\ QString\&\ password);}
+\DoxyCodeLine{00049\ }
+\DoxyCodeLine{00055\ \ \ \ \ \doxymbox{\hyperlink{class_usuario}{Usuario}}\ \doxymbox{\hyperlink{class_database_manager_aabd1aff5f58c01df5feb83b01d2ac305}{obtenerUsuario}}(\textcolor{keyword}{const}\ QString\&\ username);}
+\DoxyCodeLine{00056\ }
+\DoxyCodeLine{00068\ \ \ \ \ \textcolor{keywordtype}{bool}\ \doxymbox{\hyperlink{class_database_manager_aad20d29d8edd88ed3758ee6211aa15d3}{registrarUsuario}}(\textcolor{keyword}{const}\ QString\&\ username,\ \textcolor{keyword}{const}\ QString\&\ password,\ \textcolor{keywordtype}{int}\ edad,\ \textcolor{keyword}{const}\ QString\&\ genero,\ \textcolor{keywordtype}{double}\ altura,\ \textcolor{keywordtype}{double}\ peso,\ \textcolor{keywordtype}{double}\ actividad);}
+\DoxyCodeLine{00069\ }
+\DoxyCodeLine{00079\ \ \ \ \ \textcolor{keywordtype}{bool}\ \doxymbox{\hyperlink{class_database_manager_a134cbcf155c0c22992a2f4e7f417dbdf}{registrarMedicion}}(\textcolor{keywordtype}{int}\ usuario\_id,\ \textcolor{keywordtype}{double}\ peso,\ \textcolor{keywordtype}{int}\ presion\_sis,\ \textcolor{keywordtype}{int}\ presion\_dia,\ \textcolor{keywordtype}{int}\ glucosa);}
+\DoxyCodeLine{00080\ \ \ \ \ }
+\DoxyCodeLine{00086\ \ \ \ \ QVector<QPair<QString,\ double>>\ \doxymbox{\hyperlink{class_database_manager_a24825ddf7cb19c2fe6072807c9e4de14}{obtenerHistorialPeso}}(\textcolor{keywordtype}{int}\ usuario\_id);}
+\DoxyCodeLine{00087\ }
+\DoxyCodeLine{00094\ \ \ \ \ \textcolor{keywordtype}{bool}\ \doxymbox{\hyperlink{class_database_manager_aec2538fd9831ec5729d4e18720023f7f}{exportarHistorialCSV}}(\textcolor{keywordtype}{int}\ usuario\_id,\ \textcolor{keyword}{const}\ QString\&\ ruta\_archivo);}
+\DoxyCodeLine{00095\ }
+\DoxyCodeLine{00096\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00097\ \ \ \ \ QSqlDatabase\ m\_db;\ }
+\DoxyCodeLine{00098\ \ \ \ \ QString\ m\_path;\ \ \ \ }
+\DoxyCodeLine{00099\ }
+\DoxyCodeLine{00104\ \ \ \ \ \textcolor{keywordtype}{bool}\ createTables();}
+\DoxyCodeLine{00105\ \};}
+\DoxyCodeLine{00106\ }
+\DoxyCodeLine{00107\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ DATABASEMANAGER\_H}}
+
+\end{DoxyCode}

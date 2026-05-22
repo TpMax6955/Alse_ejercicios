@@ -1,15 +1,30 @@
+/**
+ * @file Login.cpp
+ * @brief Implementación de la ventana de inicio de sesión y registro de HealthSync.
+ */
+
 #include "Login.h"
 #include "DatabaseManager.h"
 #include "Principal.h"
 #include <QDebug>
 
+/**
+ * @brief Constructor de la clase Login. Inicializa la interfaz gráfica.
+ * @param parent Widget padre de la ventana.
+ */
 Login::Login(QWidget *parent) : QWidget(parent) {
     setupUI();
 }
 
+/**
+ * @brief Destructor de la clase Login.
+ */
 Login::~Login() {
 }
 
+/**
+ * @brief Configura e inicializa los elementos visuales, layouts y conexiones de los botones en la ventana.
+ */
 void Login::setupUI() {
     this->setWindowTitle("HealthSync - Iniciar Sesión");
     this->resize(350, 250);
@@ -45,6 +60,10 @@ void Login::setupUI() {
     connect(registerButton, &QPushButton::clicked, this, &Login::onRegisterClicked);
 }
 
+/**
+ * @brief Gestiona el evento de clic en el botón de inicio de sesión.
+ * Valida las credenciales con la base de datos y, si son correctas, abre el Dashboard principal.
+ */
 void Login::onLoginClicked() {
     QString user = userInput->text();
     QString pass = passInput->text();
@@ -67,6 +86,10 @@ void Login::onLoginClicked() {
     }
 }
 
+/**
+ * @brief Gestiona el evento de clic en el botón de registro.
+ * Crea un nuevo usuario en la base de datos asignándole valores médicos iniciales por defecto.
+ */
 void Login::onRegisterClicked() {
     QString user = userInput->text();
     QString pass = passInput->text();

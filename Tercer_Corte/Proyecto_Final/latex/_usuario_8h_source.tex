@@ -1,0 +1,43 @@
+\doxysection{Usuario.\+h}
+\hypertarget{_usuario_8h_source}{}\label{_usuario_8h_source}\index{include/Usuario.h@{include/Usuario.h}}
+\doxymbox{\hyperlink{_usuario_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#ifndef\ USUARIO\_H}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#define\ USUARIO\_H}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ <QString>}}
+\DoxyCodeLine{00009\ }
+\DoxyCodeLine{00014\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_usuario_aa85a5371a098dfba5449140d9b8a472f}{Usuario}}\ \{}
+\DoxyCodeLine{00015\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00016\ \ \ \ \ \textcolor{keywordtype}{int}\ id;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00017\ \ \ \ \ QString\ nombre\_usuario;\ }
+\DoxyCodeLine{00018\ \ \ \ \ \textcolor{keywordtype}{int}\ edad;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00019\ \ \ \ \ QString\ genero;\ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{keywordtype}{double}\ altura;\ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keywordtype}{double}\ peso;\ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00022\ \ \ \ \ \textcolor{keywordtype}{double}\ nivel\_actividad;\ }
+\DoxyCodeLine{00023\ }
+\DoxyCodeLine{00024\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00028\ \ \ \ \ \doxymbox{\hyperlink{class_usuario_aa85a5371a098dfba5449140d9b8a472f}{Usuario}}();}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00040\ \ \ \ \ \doxymbox{\hyperlink{class_usuario_aa85a5371a098dfba5449140d9b8a472f}{Usuario}}(\textcolor{keywordtype}{int}\ \textcolor{keywordtype}{id},\ QString\ nombre,\ \textcolor{keywordtype}{int}\ edad,\ QString\ genero,\ \textcolor{keywordtype}{double}\ altura,\ \textcolor{keywordtype}{double}\ peso,\ \textcolor{keywordtype}{double}\ actividad);}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00046\ \ \ \ \ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_usuario_a654c2014a73c6361cbcf40af60098229}{getId}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00047\ }
+\DoxyCodeLine{00052\ \ \ \ \ QString\ \doxymbox{\hyperlink{class_usuario_aee03e5581418d1ecf6b849a256db55f2}{getNombreUsuario}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00053\ }
+\DoxyCodeLine{00058\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_usuario_ade0f59b11f7ffecb9b4bee3650cba31d}{setPeso}}(\textcolor{keywordtype}{double}\ nuevoPeso);}
+\DoxyCodeLine{00059\ }
+\DoxyCodeLine{00064\ \ \ \ \ \textcolor{keywordtype}{double}\ \doxymbox{\hyperlink{class_usuario_a48798be71f1d050f642aa3480f75107c}{getPeso}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00065\ }
+\DoxyCodeLine{00070\ \ \ \ \ \textcolor{keywordtype}{double}\ \doxymbox{\hyperlink{class_usuario_a0a45208d25c56c91a88c87a81d06ae94}{getAltura}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00071\ }
+\DoxyCodeLine{00076\ \ \ \ \ \textcolor{keywordtype}{double}\ \doxymbox{\hyperlink{class_usuario_a6b82e7f680303f5a70aa3e4feb5f4bc4}{calcularIMC}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00077\ }
+\DoxyCodeLine{00082\ \ \ \ \ \textcolor{keywordtype}{double}\ \doxymbox{\hyperlink{class_usuario_a15b43c8aea6863f8c59c4993762ea015}{calcularTMB}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00083\ \};}
+\DoxyCodeLine{00084\ }
+\DoxyCodeLine{00085\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

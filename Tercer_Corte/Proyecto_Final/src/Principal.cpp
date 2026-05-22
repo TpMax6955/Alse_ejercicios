@@ -1,3 +1,8 @@
+/**
+ * @file Principal.cpp
+ * @brief Implementación de la ventana principal (Dashboard) y sus funcionalidades interactivas.
+ */
+
 #include "Principal.h"
 #include <QString>
 #include <QDateTime>
@@ -5,16 +10,27 @@
 #include "Login.h"
 #include <QMessageBox>
 
+/**
+ * @brief Constructor de la clase Principal. Construye el entorno de la sesión activa.
+ * @param user Datos estructurados del usuario logueado actualmente.
+ * @param parent Widget padre de la ventana.
+ */
 Principal::Principal(Usuario user, QWidget *parent) : QWidget(parent), currentUser(user) {
     setupUI();
     connect(addMeasurementButton, &QPushButton::clicked, this, &Principal::onAddMeasurementClicked);
     connect(logoutButton, &QPushButton::clicked, this, &Principal::on_btnCerrarSesion_clicked);
 }
 
+/**
+ * @brief Destructor de la clase Principal.
+ */
 Principal::~Principal() {
 
 }
 
+/**
+ * @brief Configura e inicializa todos los elementos visuales de la interfaz principal.
+ */
 void Principal::setupUI() {
     this->setWindowTitle("HealthSync - Panel Principal");
     this->resize(400, 300);
@@ -57,6 +73,9 @@ void Principal::setupUI() {
 
 }
 
+/**
+ * @brief Muestra el diálogo para registrar una nueva medición y actualiza la base de datos y la interfaz.
+ */
 void Principal::onAddMeasurementClicked() {
     Calculo dialog(this);
 
@@ -71,7 +90,7 @@ void Principal::onAddMeasurementClicked() {
         if (db.registrarMedicion(currentUser.getId(), peso, sis, dia, glu)) {
             QMessageBox::information(this, "Éxito", "Medición guardada correctamente.");
 
-            currentUser.setPeso(peso); // Actualizamos la memoria
+            currentUser.setPeso(peso); 
 
             QString imcTexto = QString::number(currentUser.calcularIMC(), 'f', 2);
             QString tmbTexto = QString::number(currentUser.calcularTMB(), 'f', 2);
@@ -86,6 +105,9 @@ void Principal::onAddMeasurementClicked() {
     }
 }
 
+/**
+ * @brief Gestiona el evento de cerrar sesión confirmando la acción con el usuario.
+ */
 void Principal::on_btnCerrarSesion_clicked() {
     QMessageBox::StandardButton respuesta;
     respuesta = QMessageBox::question(this, "Cerrar Sesión", 
@@ -102,6 +124,9 @@ void Principal::on_btnCerrarSesion_clicked() {
     }
 }
 
+/**
+ * @brief Consulta el historial de peso en la base de datos y genera la gráfica evolutiva.
+ */
 void Principal::cargarGrafica() {
     DatabaseManager db("salud.db");
     QVector<QPair<QString, double>> historial = db.obtenerHistorialPeso(currentUser.getId());
@@ -134,6 +159,9 @@ void Principal::cargarGrafica() {
     chartView->setChart(chart);
 }
 
+/**
+ * @brief Abre un cuadro de diálogo para exportar el historial médico a un archivo CSV.
+ */
 void Principal::onExportClicked() {
     QString rutaArchivo = QFileDialog::getSaveFileName(this, "Guardar Historial", "Historial_Salud.csv", "Archivos CSV (*.csv)");
 
